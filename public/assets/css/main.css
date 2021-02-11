@@ -1,0 +1,301 @@
+@font-face {
+    font-family: GE;
+    src: url(../fonts/GE\ SS\ Two/GE_SS_Two_Light.otf);
+    }
+    @font-face {
+    font-family: GEBold;
+    src: url(../fonts/GE\ SS\ Two/GE_SS_Two_Bold.otf);
+    }
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    font-family: GE !important;
+}
+h2
+{
+    font-family: GE;
+}
+h3
+{
+    font-family: GEBold !important;
+}
+h4
+{
+    font-family: GE;
+}
+h5
+{
+    font-family: GE;
+}
+.caro
+{
+    height: 1240px !important;
+}
+.carousel .slide
+{
+    min-height: 955px !important;
+    background-color: transparent !important;
+}
+.factory_margin
+{
+    margin-top: -155px;
+}
+.caro_indicators
+{
+    position: absolute;   
+    left: 25%;
+    top: -70px !important;
+    width: 100%;
+}
+.indi_pos1
+{
+    position: absolute;
+    left: -55px !important;
+    top: -165px;
+
+}
+.indi_pos2
+{
+    position: absolute;
+    left: 210px !important;
+    top: -165px;
+
+}
+.indi_pos3
+{
+    position: absolute;
+    top: -165px;
+    left: 485px !important;
+
+}
+#myVideo 
+{
+position: relative;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+margin-top: -55px !important;
+}
+i.fa.fa-bars:before
+{
+    position: relative;
+    top: 25px;
+    color: white;
+    font-size: 35px;
+    left: 45px;
+    z-index: 9999;
+}
+.header-navigation
+{
+    height: 85px;
+}
+.main-nav__main-navigation 
+{
+    display: none;
+}
+.main-nav__navigation-box li a
+{
+    position: relative;
+    margin-top: 27px;
+    text-align: right;
+    font-family: GE !important;
+    font-size: 25px;
+}
+.rectangle
+{
+    background-color: whitesmoke;
+    opacity: 0.5;
+    border: 1px;
+    margin-top: -655px;
+    border-radius: 45px;
+    width: 50% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logox
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75% !important;
+    opacity: 1 !important;
+}
+.preloader__image
+{
+    width: 25%;
+}
+.header_3_images
+{
+    position: absolute;
+    z-index: 21;
+    top: -155px;
+    left:30%;
+}
+.slider_move
+{
+    position: relative;
+    left: 55%;
+    top: -1041px;
+}
+.move
+{
+    position: relative;
+    top: 125px !important;
+    height: 1200px !important;
+    width: 45%;
+}
+.leaf-width
+{
+    width: 60% !important;
+}
+.welcome_two
+{
+    margin-top: -185px !important;
+}
+.recent_project_three
+{
+    margin-top: -155px !important;
+}
+.project_three_content
+{
+    position: relative;
+    top: -75px;
+    background-color: white;
+    border: 1px;
+    border-radius: 45px;
+    text-align: center;
+    width: 75%;
+    box-shadow: 2px 10px 28px rgba(50, 0, 85, 0.12);
+}
+.project_three_content h2
+{
+    color: rgb(167, 167, 167);
+    font-size: 25px;
+    padding: 25px;
+}
+.project_three_hover_box
+{
+    background-color: white;
+    border: 1px;
+    border-radius: 45px;
+    text-align: center;
+    width: 75%;
+    box-shadow: 2px 10px 28px rgba(50, 0, 85, 0.12);
+}
+.project_three_hover_box p
+{
+    color: gray;
+    font-size: 25px;
+    padding: 25px;
+}
+.nemo
+{
+    position: relative;
+    left: 38%;
+}
+.phone-mock
+{
+    position: relative;
+    left: 10%;
+}
+.eshterek
+{
+    position: relative;
+    top: 100px;
+    right: 32%;
+}
+.eshterek h3
+{
+    color: wheat;
+}
+.arrowz
+{
+    position: absolute;
+    margin-top: -45px;
+    left: 45%;
+    width: 4%;
+}
+.edkhol
+{
+    position: relative;
+    top: 105px;
+    color: black;
+}
+.etegahat
+{
+    border: 1px;
+    border-radius: 40px;
+    background-color: #66594f;
+    font-size: 15px;
+    padding: 15px;
+    color: white;
+}
+.lightgray
+{
+    background-color: lightgray !important;
+}
+.factory_img
+{
+    margin-top: -295px !important;
+}
+@media (min-width:1280px) and (max-width:1365px)
+{
+    .project_three_content
+    {
+        left: 40px;
+        margin-top: 15px;
+    }
+    .project_three_hover_box
+    {
+        left: 40px;
+        margin-top: 15px;
+    }
+    .project_three_hover_box p
+    {
+        font-size: 15px !important;
+    }
+    .eco_friendly_title h2 {
+        font-size: 30px !important;
+    }
+
+}
+@media (min-width:1366px) and (max-width:1439px)
+{
+    .project_three_content
+    {
+        left: 45px;
+        margin-top: 25px;
+    }
+    .project_three_hover_box
+    {
+        left: 45px;
+        margin-top: 25px;
+    }
+    .project_three_hover_box p
+    {
+        font-size: 17px !important;
+    }
+    .eco_friendly_title h2 {
+        font-size: 35px !important;
+    }
+}
+@media (min-width:1440px) and (max-width:1680px)
+{
+    .project_three_content
+    {
+        left: 45px;
+        margin-top: 25px;
+    }
+    .project_three_hover_box
+    {
+        left: 45px;
+        margin-top: 25px;
+    }
+    .project_three_hover_box p
+    {
+        font-size: 17px !important;
+    }
+}
