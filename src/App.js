@@ -1,7 +1,7 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-
+import video from "../src/videos/06_A'laf.mp4"
 class App extends React.Component {
 render(){
   return(
@@ -44,7 +44,7 @@ render(){
       </div>
     </div>
     {/* Banner Section */}
-    <section className="banner-section banner-three" style={{width:'100%'}} id="home">
+    <section className="banner-section banner-three" style={{width:'100%',backgroundImage: 'url(assets/images/wady/textured-bg.jpg)', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}} id="home">
       
 
 
@@ -83,29 +83,31 @@ render(){
                     </div>
                 )
             }>     
-            <div>
-          <video autoPlay muted id="myVideo">
-            <source src="assets/videos/06_A'laf.mp4" type="video/mp4" />
-          </video>
-
-          <div className="auto-container">
-            <div className="content-box">
-              <div className="content">
-                <div className="inner">
-                  <div className="rectangle">
-                    <img src="assets/images/wady/WADI dark logo.png" className="logox" />
+                <div>
+              <video autoPlay muted id="myVideo">
+                <source src={video} type="video/mp4" />
+              </video>
+                  <div className="auto-container">
+                    <div className="content-box">
+                      <div className="content">
+                        <div className="inner">
+                          <div className="rectangle">
+                            <img src="assets/images/wady/WADI dark logo.png" className="logox" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          </div>
+                  </div>
+
                     <div>
                     <img src="assets/images/wady/pillar3.png" style={{marginTop:"-55px"}}  role="..."/>
                     </div>
+
                    <div>
                     <img src="assets/images/wady/pillar1.png" style={{marginTop:"-55px"}} role="..."/>
                     </div>
+
                     <div>
                     <img src="assets/images/wady/pillar2.png" style={{marginTop:"-55px"}}  role="..."/>
                     </div>
@@ -134,13 +136,14 @@ render(){
           </div>
         </div>
       </div> */}
-      <div className="factory_margin">
-        <img src="assets/images/wady/factory image+ caption.png" width="100%" />
-      </div>
+
     </section>
     {/*End Banner Section */}
 
     <section>
+    <div className="factory_margin">
+        <img src="assets/images/wady/factory image+ caption.png" width="100%" />
+      </div>
       {/* Slide Item */}
       
       {/* <div className="header_3_images">
@@ -149,8 +152,8 @@ render(){
     </section>
 
     {/* Banner Section */}
-    <section className="recent_project_three">
-      <div className="container-fullwidth">
+    <section className="recent_project_three" style={{backgroundImage: 'url(assets/images/wady/textured-bg.jpg)', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+      <div className="container-fullwidth first_slider_position">
         <section className="eco_friendly">
           <div className="container">
             <div className="row">
@@ -159,7 +162,7 @@ render(){
                   <div>
                     <img style={{width: 200, marginTop: 15}} src="assets/images/wady/chicken logo.png" />
                   </div>
-                  <div className="eco_friendly_title">
+                  <div className="eco_friendly_title eco_title">
                     <h2>منتجات أعلاف الدواجن</h2>
                   </div>
                   <div className="leaf" id="products">
@@ -170,7 +173,7 @@ render(){
             </div>
           </div>
         </section>
-        <div className="pt-5 recent_project_three_carousel owl-theme owl-carousel" style={{backgroundImage: 'url(assets/images/wady/textured-bg.jpg)', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+        <div className="pt-5 recent_project_three_carousel owl-theme owl-carousel" style={{backgroundColor:'#938173'}}>
           {/*Item*/}
           <div className="project_three_single wow fadeInUp" data-wow-delay="600ms">
             <div className="project_three_image">
@@ -230,7 +233,6 @@ render(){
                 <h2> % بادي 20 </h2>
               </div>
               <div className="project_three_hover_box">
-                <p>أعلاف مرحلة التربية اللي بتضمنلك أعلى تجانس في القطيع وتوصل للوزن المناسب لكل مرحلة لأنها بتوفرلك تركيبات متزنة بتساعد الطيور إنها تكون محافظة على وزنها خلال فترة التربية بدون زيادة أو نقصان وتغطي كل احتياجتها الغذائية، وبالتالي هتوصل لمرحلة الإنتاج بقطيع متجانس تماما ومناعته عالية ومجهز لأعلى نسب إنتاج وإخصاب وفقس</p>
               </div>
             </div>
           </div>
@@ -242,7 +244,6 @@ render(){
                 <h2> %نامي 15</h2>
               </div>
               <div className="project_three_hover_box">
-                <p> أعلى إنتاج وثبات عند قمة الإنتاج بأقل استهلاك للعلف، بس لازم تبدأ بالإنتاجي (19%) لأنه بيوفر بروتين وطاقة تناسب مرحلة زيادة الإنتاج حتى الوصول لقمة الإنتاج، أعلاف مرحلة الإنتاج غنية بالعناصر المعدنية اللي بتحافظ على صحة القطيع وتخلي الطيور تنتج بيضة مثالية بأقل نسب كسر                              </p>
               </div>
             </div>
           </div>
@@ -254,7 +255,6 @@ render(){
                 <h2> % تحضيري 14 </h2>
               </div>
               <div className="project_three_hover_box">
-                <p> أعلى إنتاج وثبات عند قمة الإنتاج بأقل استهلاك للعلف، بس لازم تبدأ بالإنتاجي (19%) لأنه بيوفر بروتين وطاقة تناسب مرحلة زيادة الإنتاج حتى الوصول لقمة الإنتاج، أعلاف مرحلة الإنتاج غنية بالعناصر المعدنية اللي بتحافظ على صحة القطيع وتخلي الطيور تنتج بيضة مثالية بأقل نسب كسر                              </p>
               </div>
             </div>
           </div>
@@ -266,7 +266,6 @@ render(){
                 <h2> %بادي2 16 </h2>
               </div>
               <div className="project_three_hover_box">
-                <p> أعلى إنتاج وثبات عند قمة الإنتاج بأقل استهلاك للعلف، بس لازم تبدأ بالإنتاجي (19%) لأنه بيوفر بروتين وطاقة تناسب مرحلة زيادة الإنتاج حتى الوصول لقمة الإنتاج، أعلاف مرحلة الإنتاج غنية بالعناصر المعدنية اللي بتحافظ على صحة القطيع وتخلي الطيور تنتج بيضة مثالية بأقل نسب كسر                              </p>
               </div>
             </div>
           </div>
@@ -278,7 +277,6 @@ render(){
                 <h2> % إنتاجي 19</h2>
               </div>
               <div className="project_three_hover_box">
-                <p> أعلى إنتاج وثبات عند قمة الإنتاج بأقل استهلاك للعلف، بس لازم تبدأ بالإنتاجي (19%) لأنه بيوفر بروتين وطاقة تناسب مرحلة زيادة الإنتاج حتى الوصول لقمة الإنتاج، أعلاف مرحلة الإنتاج غنية بالعناصر المعدنية اللي بتحافظ على صحة القطيع وتخلي الطيور تنتج بيضة مثالية بأقل نسب كسر</p>
               </div>
             </div>
           </div>
@@ -290,7 +288,6 @@ render(){
                 <h2> % إنتاجي 18</h2>
               </div>
               <div className="project_three_hover_box">
-                <p> أعلى إنتاج وثبات عند قمة الإنتاج بأقل استهلاك للعلف، بس لازم تبدأ بالإنتاجي (19%) لأنه بيوفر بروتين وطاقة تناسب مرحلة زيادة الإنتاج حتى الوصول لقمة الإنتاج، أعلاف مرحلة الإنتاج غنية بالعناصر المعدنية اللي بتحافظ على صحة القطيع وتخلي الطيور تنتج بيضة مثالية بأقل نسب كسر                              </p>
               </div>
             </div>
           </div>
@@ -302,7 +299,6 @@ render(){
                 <h2> %إنتاجي 17 </h2>
               </div>
               <div className="project_three_hover_box">
-                <p> أعلى إنتاج وثبات عند قمة الإنتاج بأقل استهلاك للعلف، بس لازم تبدأ بالإنتاجي (19%) لأنه بيوفر بروتين وطاقة تناسب مرحلة زيادة الإنتاج حتى الوصول لقمة الإنتاج، أعلاف مرحلة الإنتاج غنية بالعناصر المعدنية اللي بتحافظ على صحة القطيع وتخلي الطيور تنتج بيضة مثالية بأقل نسب كسر                              </p>
               </div>
             </div>
           </div>
@@ -314,7 +310,6 @@ render(){
                 <h2> %إنتاجي 16 </h2>
               </div>
               <div className="project_three_hover_box">
-                <p> أعلى إنتاج وثبات عند قمة الإنتاج بأقل استهلاك للعلف، بس لازم تبدأ بالإنتاجي (19%) لأنه بيوفر بروتين وطاقة تناسب مرحلة زيادة الإنتاج حتى الوصول لقمة الإنتاج، أعلاف مرحلة الإنتاج غنية بالعناصر المعدنية اللي بتحافظ على صحة القطيع وتخلي الطيور تنتج بيضة مثالية بأقل نسب كسر                              </p>
               </div>
             </div>
           </div>
@@ -326,7 +321,6 @@ render(){
                 <h2>  مركز مرحلة التربية للدجاج <br />% البياض 33</h2>
               </div>
               <div className="project_three_hover_box">
-                <p>والوحيدة في مصر اللي نزلت بمرحلتين التربية والإنتاج وده لأن تم تصميمها بطريقة ذكية تضمنلك توفير كل الاحتياجات من العناصر الغذائية لكل مرحلة عمرية على حدة، وبالتالي هتكون ضامن جودة المكونات اللي جوه مركزات الوادي وهتقدر تعمل تركيبات العلف بأقل تكلفة وإنت ضامن أعلى قيمة من استخدام مركزات كاملة</p>
               </div>
             </div>
           </div>
@@ -338,7 +332,6 @@ render(){
                 <h2>  مركز مرحلة الإنتاج للدجاج<br />% البياض 30.5</h2>
               </div>
               <div className="project_three_hover_box">
-                <p>والوحيدة في مصر اللي نزلت بمرحلتين التربية والإنتاج وده لأن تم تصميمها بطريقة ذكية تضمنلك توفير كل الاحتياجات من العناصر الغذائية لكل مرحلة عمرية على حدة، وبالتالي هتكون ضامن جودة المكونات اللي جوه مركزات الوادي وهتقدر تعمل تركيبات العلف بأقل تكلفة وإنت ضامن أعلى قيمة من استخدام مركزات كاملة</p>
               </div>
             </div>
           </div>
@@ -350,7 +343,6 @@ render(){
                 <h2> %بياض إنتاجي 15</h2>
               </div>
               <div className="project_three_hover_box">
-                <p> أعلى إنتاج وثبات عند قمة الإنتاج بأقل استهلاك للعلف، بس لازم تبدأ بالإنتاجي (19%) لأنه بيوفر بروتين وطاقة تناسب مرحلة زيادة الإنتاج حتى الوصول لقمة الإنتاج، أعلاف مرحلة الإنتاج غنية بالعناصر المعدنية اللي بتحافظ على صحة القطيع وتخلي الطيور تنتج بيضة مثالية بأقل نسب كسر                              </p>
               </div>
             </div>
           </div>
@@ -362,7 +354,6 @@ render(){
                 <h2> %بياض إنتاجي 16</h2>
               </div>
               <div className="project_three_hover_box">
-                <p> أعلى إنتاج وثبات عند قمة الإنتاج بأقل استهلاك للعلف، بس لازم تبدأ بالإنتاجي (19%) لأنه بيوفر بروتين وطاقة تناسب مرحلة زيادة الإنتاج حتى الوصول لقمة الإنتاج، أعلاف مرحلة الإنتاج غنية بالعناصر المعدنية اللي بتحافظ على صحة القطيع وتخلي الطيور تنتج بيضة مثالية بأقل نسب كسر                              </p>
               </div>
             </div>
           </div>
@@ -379,8 +370,8 @@ render(){
           </div>
         </div>
       </div>
-      <div className="container-fullwidth">
-        <section className="eco_friendly" style={{backgroundImage: 'url(assets/images/5.jpg)'}}>
+      <div className="container-fullwidth second_slider_position">
+        <section className="eco_friendly">
           <div className="container">
             <div className="row">
               <div className="col-xl-12">
@@ -388,7 +379,7 @@ render(){
                   <div>
                     <img style={{width: 200, marginTop: 15}} src="assets/images/wady/cow logo.png" />
                   </div>
-                  <div className="eco_friendly_title">
+                  <div className="eco_friendly_title eco_title">
                     <h2>منتجات أعلاف الماشية</h2>
                   </div>
                   <div className="leaf" id="products">
@@ -399,10 +390,10 @@ render(){
             </div>
           </div>
         </section>
-        <div className="pt-5 recent_project_three_carousel owl-theme owl-carousel" style={{backgroundImage: 'url(assets/images/wady/textured-bg.jpg)', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+        <div className="pt-5 recent_project_three_carousel second_slider_height owl-theme owl-carousel" style={{backgroundColor:'#938173'}}>
           {/*Item*/}
           <div className="project_three_single wow fadeInUp" data-wow-delay="1200ms">
-            <div className="p-4 project_three_image">
+            <div className="project_three_image img_padding">
               <img src="assets/images/wady/Super Corn.png" alt />
               <div className="project_three_content">
                 <h2> مخلوط سوبر سيلاج ذرة </h2>
@@ -413,7 +404,7 @@ render(){
           </div>
           {/*Item*/}
           <div className="project_three_single wow fadeInUp" data-wow-delay="600ms">
-            <div className="p-4 project_three_image">
+            <div className="project_three_image img_padding">
               <img src="assets/images/wady/TMR Sheep.png" alt />
               <div className="project_three_content">
                 <h2> خلطة أعلاف أغنام متكاملة</h2>
@@ -425,7 +416,7 @@ render(){
           </div>
           {/*Item*/}
           <div className="project_three_single wow fadeInUp" data-wow-delay="900ms">
-            <div className="p-4 project_three_image">
+            <div className="project_three_image img_padding">
               <img src="assets/images/wady/TMR Fattening.png" alt />
               <div className="project_three_content">
                 <h2> خلطة تسمين ماشية متكاملة</h2>
@@ -438,7 +429,7 @@ render(){
           </div>
           {/*Item*/}
           <div className="project_three_single wow fadeInUp" data-wow-delay="300ms">
-            <div className="p-4 project_three_image">
+            <div className="project_three_image img_padding">
               <img src="assets/images/wady/TMR Milking.png" alt />
               <div className="project_three_content">
                 <h2> خلطة حلاب ماشية عالي الادرار</h2>

@@ -36,19 +36,25 @@ h5
 }
 .carousel .slide
 {
-    min-height: 955px !important;
     background-color: transparent !important;
+    height: 1140px;
 }
 .factory_margin
 {
-    margin-top: -155px;
+    margin-top: -35px;
 }
 .caro_indicators
 {
-    position: absolute;   
-    left: 25%;
-    top: -70px !important;
-    width: 100%;
+    position: relative;   
+    left: 30%;
+    top: 5px;
+    z-index: 1;
+    width: 150%;
+
+}
+.carousel
+{
+    overflow: visible !important;
 }
 .indi_pos1
 {
@@ -158,22 +164,24 @@ i.fa.fa-bars:before
 .recent_project_three
 {
     margin-top: -155px !important;
+    height: 920px !important;
 }
 .project_three_content
 {
     position: relative;
-    top: -75px;
+    top: -20px;
     background-color: white;
     border: 1px;
-    border-radius: 45px;
+    border-radius: 35px;
     text-align: center;
     width: 75%;
     box-shadow: 2px 10px 28px rgba(50, 0, 85, 0.12);
+    left: 30px;
 }
 .project_three_content h2
 {
-    color: rgb(167, 167, 167);
-    font-size: 25px;
+    color: rgb(121, 121, 121);
+    font-size: 15px;
     padding: 25px;
 }
 .project_three_hover_box
@@ -184,12 +192,17 @@ i.fa.fa-bars:before
     text-align: center;
     width: 75%;
     box-shadow: 2px 10px 28px rgba(50, 0, 85, 0.12);
+    left: 30px;
 }
 .project_three_hover_box p
 {
     color: gray;
-    font-size: 25px;
+    font-size: 12px;
     padding: 25px;
+}
+.img_padding
+{
+    padding: 10px;
 }
 .nemo
 {
@@ -241,48 +254,181 @@ i.fa.fa-bars:before
 {
     margin-top: -295px !important;
 }
+.first_slider_position
+{
+    width: 48%;
+    position: relative;
+    top: -55px;
+    left: 1%;
+}
+.second_slider_position
+{
+    width: 48%;
+    position: relative;
+    left: 51%;
+    top: -836px;
+}
+.second_slider_height
+{
+    height: 468px !important;
+}
+.eco_title h2
+{
+    margin-top: -85px;
+}
 @media (min-width:1280px) and (max-width:1365px)
 {
+    .carousel .slide
+    {
+        background-color: transparent !important;
+        height: auto !important;
+    }
+    .factory_margin
+    {
+        margin-top: 0px !important;
+        height: 960px !important;
+    }
+    .caro_indicators
+    {
+        position: relative;   
+        left: 20%;
+        top: 85px;
+        z-index: 1;
+    }
+    .rectangle
+    {
+        margin-top: -525px;
+    }
     .project_three_content
     {
-        left: 40px;
-        margin-top: 15px;
+        left: 15px;
+        width: 85%;
+        margin-top: 5px;
+    }
+    .project_three_content h2
+    {
+        padding: 25px;
+        line-height: 17px;
     }
     .project_three_hover_box
     {
-        left: 40px;
-        margin-top: 15px;
+        left: 15px;
+        width: 85%;
+        margin-bottom: 25px;
     }
     .project_three_hover_box p
     {
-        font-size: 15px !important;
+        padding: 15px;
+        line-height: 17px;
     }
     .eco_friendly_title h2 {
         font-size: 30px !important;
     }
+    .first_slider_position
+    {
+        position: relative;
+        top: -55px;
+    }
+    .second_slider_position
+    {
+        position: relative;
+        top: -763px;
+    }
+    .second_slider_height
+    {
+        height: 394px !important;
+    }
+    .img_padding
+    {
+        padding:4px;
+    }
+    .eco_friendly_content h2
+    {
+        margin-top: -85px;
+    }
+    .recent_project_three
+    {
+        height: 829px !important;
+    }
+
 
 }
 @media (min-width:1366px) and (max-width:1439px)
 {
+    .carousel .slide
+    {
+        background-color: transparent !important;
+        height: auto !important;
+    }
+    .factory_margin
+    {
+        margin-top: 0px !important;
+        height: 960px !important;
+    }
+    .caro_indicators
+    {
+        position: relative;   
+        left: 20%;
+        top: 85px;
+        z-index: 1;
+    }
+    .rectangle
+    {
+        margin-top: -525px;
+    }
     .project_three_content
     {
-        left: 45px;
-        margin-top: 25px;
+        left: 15px;
+        width: 85%;
+        margin-top: 5px;
+    }
+    .project_three_content h2
+    {
+        padding: 25px;
+        line-height: 17px;
     }
     .project_three_hover_box
     {
-        left: 45px;
-        margin-top: 25px;
+        left: 15px;
+        width: 85%;
+        margin-bottom: 25px;
     }
     .project_three_hover_box p
     {
-        font-size: 17px !important;
+        padding: 15px;
+        line-height: 17px;
     }
     .eco_friendly_title h2 {
-        font-size: 35px !important;
+        font-size: 30px !important;
+    }
+    .first_slider_position
+    {
+        position: relative;
+        top: -55px;
+    }
+    .second_slider_position
+    {
+        position: relative;
+        top: -774px;
+    }
+    .second_slider_height
+    {
+        height: 405px !important;
+    }
+    .img_padding
+    {
+        padding:4px;
+    }
+    .eco_friendly_content h2
+    {
+        margin-top: -85px;
+    }
+    .recent_project_three
+    {
+        height: 839px !important;
     }
 }
-@media (min-width:1440px) and (max-width:1680px)
+@media (min-width:1440px) and (max-width:1679px)
 {
     .project_three_content
     {
@@ -297,5 +443,148 @@ i.fa.fa-bars:before
     .project_three_hover_box p
     {
         font-size: 17px !important;
+    }
+    .carousel .slide
+    {
+        background-color: transparent !important;
+        height: auto !important;
+    }
+    .factory_margin
+    {
+        margin-top: 0px !important;
+        height: 1000px !important;
+    }
+    .caro_indicators
+    {
+        position: relative;   
+        left: 20%;
+        top: 85px;
+        z-index: 1;
+    }
+    .rectangle
+    {
+        margin-top: -545px;
+    }
+    .project_three_content
+    {
+        left: 15px;
+        width: 85%;
+        margin-top: 5px;
+    }
+    .project_three_content h2
+    {
+        padding: 25px;
+        line-height: 17px;
+    }
+    .project_three_hover_box
+    {
+        left: 15px;
+        width: 85%;
+        margin-bottom: 25px;
+    }
+    .project_three_hover_box p
+    {
+        padding: 15px;
+        line-height: 17px;
+    }
+    .eco_friendly_title h2 {
+        font-size: 30px !important;
+    }
+    .first_slider_position
+    {
+        position: relative;
+        top: -55px;
+    }
+    .second_slider_position
+    {
+        position: relative;
+        top: -784px;
+    }
+    .second_slider_height
+    {
+        height: 416px !important;
+    }
+    .img_padding
+    {
+        padding:4px;
+    }
+    .eco_friendly_content h2
+    {
+        margin-top: -85px;
+    }
+    .recent_project_three
+    {
+        height: 849px !important;
+    }
+}
+@media (min-width:1680px) and (max-width:1919px)
+{
+    .carousel .slide
+    {
+        background-color: transparent !important;
+        height: auto !important;
+    }
+    .factory_margin
+    {
+        margin-top: 0px !important;
+        height: 1200px !important;
+    }
+    .caro_indicators
+    {
+        position: relative;   
+        left: 25%;
+        top: 85px;
+        z-index: 1;
+    }
+    .project_three_content
+    {
+        left: 15px;
+        width: 85%;
+        margin-top: 5px;
+    }
+    .project_three_content h2
+    {
+        padding: 25px;
+        line-height: 17px;
+    }
+    .project_three_hover_box
+    {
+        left: 15px;
+        width: 85%;
+        margin-bottom: 25px;
+    }
+    .project_three_hover_box p
+    {
+        padding: 15px;
+        line-height: 17px;
+    }
+    .eco_friendly_title h2 {
+        font-size: 30px !important;
+    }
+    .first_slider_position
+    {
+        position: relative;
+        top: -55px;
+    }
+    .second_slider_position
+    {
+        position: relative;
+        top: -801px;
+    }
+    .second_slider_height
+    {
+        height: 434px !important;
+    }
+    .img_padding
+    {
+        padding:4px;
+    }
+    .eco_friendly_content h2
+    {
+        margin-top: -85px;
+    }
+    .recent_project_three
+    {
+        height: 879px !important;
     }
 }
