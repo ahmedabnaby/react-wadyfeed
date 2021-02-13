@@ -281,7 +281,7 @@ i.fa.fa-bars:before
     .carousel .slide
     {
         background-color: transparent !important;
-        height: auto !important;
+        height: 790px;
     }
     .factory_margin
     {
@@ -292,7 +292,7 @@ i.fa.fa-bars:before
     {
         position: relative;   
         left: 20%;
-        top: 85px;
+        top: -5px;
         z-index: 1;
     }
     .rectangle
@@ -332,7 +332,7 @@ i.fa.fa-bars:before
     .second_slider_position
     {
         position: relative;
-        top: -763px;
+        top: -760px;
     }
     .second_slider_height
     {
@@ -358,7 +358,7 @@ i.fa.fa-bars:before
     .carousel .slide
     {
         background-color: transparent !important;
-        height: auto !important;
+        height: 790px;
     }
     .factory_margin
     {
@@ -369,7 +369,7 @@ i.fa.fa-bars:before
     {
         position: relative;   
         left: 20%;
-        top: 85px;
+        top: 15px;
         z-index: 1;
     }
     .rectangle
@@ -409,7 +409,7 @@ i.fa.fa-bars:before
     .second_slider_position
     {
         position: relative;
-        top: -774px;
+        top: -776px;
     }
     .second_slider_height
     {
@@ -447,7 +447,7 @@ i.fa.fa-bars:before
     .carousel .slide
     {
         background-color: transparent !important;
-        height: auto !important;
+        height: 830px;
     }
     .factory_margin
     {
@@ -458,7 +458,7 @@ i.fa.fa-bars:before
     {
         position: relative;   
         left: 20%;
-        top: 85px;
+        top: 25px;
         z-index: 1;
     }
     .rectangle
@@ -522,7 +522,7 @@ i.fa.fa-bars:before
     .carousel .slide
     {
         background-color: transparent !important;
-        height: auto !important;
+        height: 990px;
     }
     .factory_margin
     {
@@ -533,7 +533,7 @@ i.fa.fa-bars:before
     {
         position: relative;   
         left: 25%;
-        top: 85px;
+        top: 15px;
         z-index: 1;
     }
     .project_three_content

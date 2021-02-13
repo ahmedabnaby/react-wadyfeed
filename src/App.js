@@ -84,7 +84,7 @@ render(){
                 )
             }>     
                 <div>
-              <video autoPlay muted id="myVideo">
+              <video autoPlay loop muted id="myVideo">
                 <source src={video} type="video/mp4" />
               </video>
                   <div className="auto-container">
