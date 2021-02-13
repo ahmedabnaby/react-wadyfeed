@@ -276,6 +276,18 @@ i.fa.fa-bars:before
 {
     margin-top: -85px;
 }
+.curved
+{
+    position: absolute;
+    /* bottom: 10px; */
+    left:70%;
+    margin-top: 855px;
+    width: 555px !important;
+}
+.curved_width
+{
+    width: 555px !important;
+}
 @media (min-width:1280px) and (max-width:1365px)
 {
     .carousel .slide
@@ -350,8 +362,18 @@ i.fa.fa-bars:before
     {
         height: 829px !important;
     }
-
-
+    .curved
+    {
+        position: absolute;
+        /* bottom: 10px; */
+        left:55%;
+        margin-top: 555px;
+        width: 555px !important;
+    }
+    .curved_width
+    {
+        width: 555px !important;
+    }
 }
 @media (min-width:1366px) and (max-width:1439px)
 {
@@ -427,6 +449,19 @@ i.fa.fa-bars:before
     {
         height: 839px !important;
     }
+    .curved
+    {
+        position: absolute;
+        /* bottom: 10px; */
+        left:55%;
+        margin-top: 555px;
+        width: 555px !important;
+    }
+    .curved_width
+    {
+        width: 555px !important;
+    }
+
 }
 @media (min-width:1440px) and (max-width:1679px)
 {
@@ -516,6 +551,19 @@ i.fa.fa-bars:before
     {
         height: 849px !important;
     }
+    .curved
+    {
+        position: absolute;
+        /* bottom: 10px; */
+        left:60%;
+        margin-top: 595px;
+        width: 555px !important;
+    }
+    .curved_width
+    {
+        width: 555px !important;
+    }
+
 }
 @media (min-width:1680px) and (max-width:1919px)
 {
@@ -586,5 +634,17 @@ i.fa.fa-bars:before
     .recent_project_three
     {
         height: 879px !important;
+    }
+    .curved
+    {
+        position: absolute;
+        /* bottom: 10px; */
+        left:65%;
+        margin-top: 755px;
+        width: 555px !important;
+    }
+    .curved_width
+    {
+        width: 555px !important;
     }
 }

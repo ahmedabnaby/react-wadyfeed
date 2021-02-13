@@ -142,7 +142,10 @@ render(){
 
     <section>
     <div className="factory_margin">
-        <img src="assets/images/wady/factory image+ caption.png" width="100%" />
+        <div className="curved wow fadeInDown" data-wow-delay="100ms">
+        <img src="assets/images/wady/curved caption.png" className="curved_width"/>
+        </div>
+        <img src="assets/images/wady/factory image .png" width="100%" />
       </div>
       {/* Slide Item */}
       
@@ -502,7 +505,7 @@ render(){
           <div className="col-xl-12">
             <div className="eco_friendly_content">
               <img style={{width: 200}} src="assets/images/wady/contact us logo.png" />
-              <div className="eco_friendly_title">
+              <div className="eco_friendly_title eco_title">
                 <h2>تواصل معنا</h2>
               </div>
             </div>
