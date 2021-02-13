@@ -50,7 +50,7 @@ render(){
 
     <Carousel showStatus={false} showThumbs={false} renderIndicator={(clickHandler, isSelected,i) =>
                 (
-                <div className="caro_indicators">
+                <div className="caro_indicators wow fadeInLeft" data-wow-delay="50ms">
                     {i===1&& (
                         <div>
                            
@@ -87,7 +87,7 @@ render(){
               <video autoPlay loop muted id="myVideo">
                 <source src={video} type="video/mp4" />
               </video>
-                  <div className="auto-container">
+                  <div className="auto-container wow fadeInUp" data-wow-delay="250ms">
                     <div className="content-box">
                       <div className="content">
                         <div className="inner">
@@ -154,7 +154,7 @@ render(){
     {/* Banner Section */}
     <section className="recent_project_three" style={{backgroundImage: 'url(assets/images/wady/textured-bg.jpg)', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
       <div className="container-fullwidth first_slider_position">
-        <section className="eco_friendly">
+        <section className="eco_friendly wow fadeInLeft" data-wow-delay="50ms">
           <div className="container">
             <div className="row">
               <div className="col-xl-12">
@@ -173,7 +173,7 @@ render(){
             </div>
           </div>
         </section>
-        <div className="pt-5 recent_project_three_carousel owl-theme owl-carousel" style={{backgroundColor:'#938173'}}>
+        <div className="pt-5 recent_project_three_carousel owl-theme owl-carousel wow fadeInLeft" data-wow-delay="50ms" style={{backgroundColor:'#938173'}}>
           {/*Item*/}
           <div className="project_three_single wow fadeInUp" data-wow-delay="600ms">
             <div className="project_three_image">
@@ -371,7 +371,7 @@ render(){
         </div>
       </div>
       <div className="container-fullwidth second_slider_position">
-        <section className="eco_friendly">
+        <section className="eco_friendly wow fadeInRight" data-wow-delay="50ms">
           <div className="container">
             <div className="row">
               <div className="col-xl-12">
@@ -390,7 +390,7 @@ render(){
             </div>
           </div>
         </section>
-        <div className="pt-5 recent_project_three_carousel second_slider_height owl-theme owl-carousel" style={{backgroundColor:'#938173'}}>
+        <div className="pt-5 recent_project_three_carousel second_slider_height owl-theme owl-carousel wow fadeInRight" data-wow-delay="50ms" style={{backgroundColor:'#938173'}}>
           {/*Item*/}
           <div className="project_three_single wow fadeInUp" data-wow-delay="1200ms">
             <div className="project_three_image img_padding">
@@ -448,8 +448,8 @@ render(){
           <div className="row">
             <div className="col-xl-12">
               <div className="eco_friendly_content">
-                <img style={{width: '30%'}} src="assets/images/wady/club 8 logo.png" />
-                <div className="eco_friendly_title">
+                <img style={{width: '30%'}} className="wow fadeInLUp" data-wow-delay="150ms" src="assets/images/wady/club 8 logo.png" />
+                <div className="eco_friendly_title wow fadeInUp" data-wow-delay="150ms">
                   <h2>برنامج نادي الثمانية</h2>
                 </div>
                 <div className="mt-5 leaf" id="products">
@@ -457,19 +457,19 @@ render(){
                 </div>
                 <p style={{fontSize: 25, color: 'white', marginTop: 25}}>برنامج نادي الثمانية هي الطريقة لاعلاف الوادي بتتواصل بيها مع العملاء بتوعها من التجار و المربين  البرنامج ده بيتحمل من على جوجل العملاء يقدرو  عن طريقه يتأكدو ان المنتج المعاهم أصلي مش مضروب , كمان يقدرو يوصلوا  صوتهم و اقتراحتهم للشركة في نفس الوقت يقدروا يشتركوا في   برنامج حوافز اعلاف الوادي و يكسبوا هدايا و  حوافز كتيرة من الشركة</p>
                 <div className="mt-5 row">
-                  <div className="col">
+                  <div className="col wow fadeInLeft" data-wow-delay="50ms">
                     <img src="assets/images/wady/NEW CLUB 8 PNG 3.png" width="65%" />
                     <h4 style={{color: 'white', marginTop: 25}}>عايز  توصل صوتك للشركة</h4>
                   </div>
-                  <div className="col">
+                  <div className="col wow fadeInLeft" data-wow-delay="150ms">
                     <img src="assets/images/wady/NEW CLUB 8 PNG 2.png" width="65%" />
                     <h4 style={{color: 'white', marginTop: 25}}>عايز تكسب حوافز</h4>
                   </div>
-                  <div className="col">
+                  <div className="col wow fadeInLeft" data-wow-delay="250ms">
                     <img src="assets/images/wady/NEW CLUB 8 PNG 4.png" width="65%" />
                     <h4 style={{color: 'white', marginTop: 25}}>عايز تكسب هدايا</h4>
                   </div>
-                  <div className="col">
+                  <div className="col wow fadeInLeft" data-wow-delay="350ms">
                     <img src="assets/images/wady/NEW CLUB 8 PNG 1.png" width="65%" />
                     <h4 style={{color: 'white', marginTop: 25}}>عايز تتأكد ان الشيكارة أصلية</h4>
                   </div>
@@ -490,8 +490,8 @@ render(){
           <h3 style={{textAlign: 'right'}} className="edkhol">ادخل و نزل البرنامج</h3>
         </div>
         <div>
-          <img src="assets/images/wady/club 8- phone mock.png" width="50%" className="phone-mock" />
-          <img src="assets/images/wady/QR Code- WADI.png" width="20%" />
+          <img src="assets/images/wady/club 8- phone mock.png" width="50%" className="phone-mock wow fadeInLeft" data-wow-delay="250ms" />
+          <img src="assets/images/wady/QR Code- WADI.png" width="20%" className="wow fadeInRight" data-wow-delay="250ms" />
         </div>
       </div>
     </div>
