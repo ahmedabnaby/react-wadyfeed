@@ -1249,7 +1249,7 @@ h6 {
 }
 
 .topbar_three_nav_box .stricked-menu {
-    background-color: #66594f;
+    background-color: #938173;
 }
 .stricked-menu .main_nav_header_three_content {
     padding-left: 0px;
@@ -3776,7 +3776,7 @@ h6 {
 .site-footer {
     position: relative;
     display: block;
-    background: #938173 !important;
+    background: #bea999 !important;
     padding: 34px 0 28px;
 }
 .site-footer_farm_image {
@@ -4016,7 +4016,7 @@ h6 {
     position: relative;
     display: block;
     padding: 28px 0 29px;
-    background: #66594f;
+    background: #938173;
 }
 .site-footer_bottom .container {
     display: -webkit-box;
@@ -5592,7 +5592,7 @@ h6 {
     right: 0;
     content: "";
     /* background: rgba(57, 67, 54, 0.5); */
-    background-color: #938173;
+    background-color: #bea999;
 }
 .eco_friendly_content {
     position: relative;

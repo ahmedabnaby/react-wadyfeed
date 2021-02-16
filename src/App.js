@@ -176,7 +176,7 @@ render(){
             </div>
           </div>
         </section>
-        <div className="pt-5 recent_project_three_carousel owl-theme owl-carousel wow fadeInLeft" data-wow-delay="50ms" style={{backgroundColor:'#938173'}}>
+        <div className="pt-5 recent_project_three_carousel owl-theme owl-carousel wow fadeInLeft" data-wow-delay="50ms" style={{backgroundColor:'#bea999'}}>
           {/*Item*/}
           <div className="project_three_single wow fadeInUp" data-wow-delay="600ms">
             <div className="project_three_image">
@@ -393,7 +393,7 @@ render(){
             </div>
           </div>
         </section>
-        <div className="pt-5 recent_project_three_carousel second_slider_height owl-theme owl-carousel wow fadeInRight" data-wow-delay="50ms" style={{backgroundColor:'#938173'}}>
+        <div className="pt-5 recent_project_three_carousel second_slider_height owl-theme owl-carousel wow fadeInRight" data-wow-delay="50ms" style={{backgroundColor:'#bea999'}}>
           {/*Item*/}
           <div className="project_three_single wow fadeInUp" data-wow-delay="1200ms">
             <div className="project_three_image img_padding">

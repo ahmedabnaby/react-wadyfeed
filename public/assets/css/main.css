@@ -648,3 +648,185 @@ i.fa.fa-bars:before
         width: 555px !important;
     }
 }
+@media (min-width:1956px) and (max-width: 2156px) /* 90% */
+{
+        .rectangle
+        {
+            margin-top: -755px;
+        }
+        .carousel .slide
+        {
+            background-color: transparent !important;
+            height: 1290px;
+        }
+        .factory_margin
+        {
+            margin-top: 0px !important;
+            height: 1200px !important;
+        }
+        .caro_indicators
+        {
+            position: relative;   
+            left: 32%;
+            top: -25px;
+            z-index: 1;
+        }
+        .project_three_content
+        {
+            left: 15px;
+            width: 85%;
+            margin-top: 5px;
+        }
+        .project_three_content h2
+        {
+            padding: 25px;
+            line-height: 17px;
+        }
+        .project_three_hover_box
+        {
+            left: 15px;
+            width: 85%;
+            margin-bottom: 25px;
+        }
+        .project_three_hover_box p
+        {
+            padding: 15px;
+            line-height: 17px;
+        }
+        .eco_friendly_title h2 {
+            font-size: 30px !important;
+        }
+        .first_slider_position
+        {
+            position: relative;
+            top: -55px;
+        }
+        .second_slider_position
+        {
+            position: relative;
+            top: -865px;
+        }
+        .second_slider_height
+        {
+            height: 502px !important;
+        }
+        .img_padding
+        {
+            padding:4px;
+        }
+        .eco_friendly_content h2
+        {
+            margin-top: -85px;
+        }
+        .recent_project_three
+        {
+            height: 979px !important;
+        }
+        .curved
+        {
+            position: absolute;
+            /* bottom: 10px; */
+            left:60%;
+            margin-top: 655px;
+            width: 755px !important;
+        }
+        .curved_width
+        {
+            width: 755px !important;
+        }
+        .arrowz
+        {
+            margin-left: 72px;
+        }
+}
+@media (min-width:2560px) and (max-width:3839px)
+{
+    .rectangle
+    {
+        margin-top: -855px;
+    }
+    .carousel .slide
+    {
+        background-color: transparent !important;
+        height: 1490px;
+    }
+    .factory_margin
+    {
+        margin-top: 0px !important;
+        height: 1200px !important;
+    }
+    .caro_indicators
+    {
+        position: relative;   
+        left: 35%;
+        top: 15px;
+        z-index: 1;
+    }
+    .project_three_content
+    {
+        left: 15px;
+        width: 85%;
+        margin-top: 5px;
+    }
+    .project_three_content h2
+    {
+        padding: 25px;
+        line-height: 17px;
+    }
+    .project_three_hover_box
+    {
+        left: 15px;
+        width: 85%;
+        margin-bottom: 25px;
+    }
+    .project_three_hover_box p
+    {
+        padding: 15px;
+        line-height: 17px;
+    }
+    .eco_friendly_title h2 {
+        font-size: 30px !important;
+    }
+    .first_slider_position
+    {
+        position: relative;
+        top: -55px;
+    }
+    .second_slider_position
+    {
+        position: relative;
+        top: -904px;
+    }
+    .second_slider_height
+    {
+        height: 539px !important;
+    }
+    .img_padding
+    {
+        padding:4px;
+    }
+    .eco_friendly_content h2
+    {
+        margin-top: -85px;
+    }
+    .recent_project_three
+    {
+        height: 979px !important;
+    }
+    .curved
+    {
+        position: absolute;
+        /* bottom: 10px; */
+        left:65%;
+        margin-top: 655px;
+        width: 755px !important;
+    }
+    .curved_width
+    {
+        width: 755px !important;
+    }
+    .arrowz
+    {
+        margin-left: 72px;
+    }
+}
