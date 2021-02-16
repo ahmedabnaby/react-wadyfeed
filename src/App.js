@@ -157,7 +157,7 @@ render(){
     {/* Banner Section */}
     <section className="recent_project_three" style={{backgroundImage: 'url(assets/images/wady/textured-bg.jpg)', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
       <div className="container-fullwidth first_slider_position">
-        <section className="eco_friendly wow fadeInLeft" data-wow-delay="50ms">
+        <section className="eco_friendly wow fadeInLeft" data-wow-delay="900ms">
           <div className="container">
             <div className="row">
               <div className="col-xl-12">
@@ -191,7 +191,7 @@ render(){
             </div>
           </div>
           {/*Item*/}
-          <div className="project_three_single wow fadeInUp" data-wow-delay="900ms">
+          <div className="project_three_single wow fadeInUp" data-wow-delay="850ms">
             <div className="project_three_image">
               <img src="assets/images/wady/3- Nahy (7.300 L.E)Per Ton.png" alt />
               <div className="project_three_content">
@@ -374,7 +374,7 @@ render(){
         </div>
       </div>
       <div className="container-fullwidth second_slider_position">
-        <section className="eco_friendly wow fadeInRight" data-wow-delay="50ms">
+        <section className="eco_friendly wow fadeInRight" data-wow-delay="850ms">
           <div className="container">
             <div className="row">
               <div className="col-xl-12">
