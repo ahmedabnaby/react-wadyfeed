@@ -48,7 +48,7 @@ render(){
       </div>
     </div>
     <div className="new_logo">
-                    <a href="#"><img src="assets/images/wady/new_logo.png" role="..." style={{backgroundColor:'white'}}/></a>
+                    <a href="#"><img src="assets/images/wady/wave_logo.png" className="new_logo_img" role="..."/></a>
                   </div>
     {/* Banner Section */}
     <section className="banner-section banner-three" style={{width:'100%',backgroundImage: 'url(assets/images/wady/textured-bg.jpg)', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}} id="home">
@@ -58,10 +58,10 @@ render(){
     <Carousel interval={15000} infiniteLoop autoPlay showStatus={false} showThumbs={false} renderIndicator={(clickHandler, isSelected,i) =>
                 (
                 <div className="caro_indicators wow fadeInLeft" data-wow-delay="50ms">
-                    {i===3&& (
+                    {i===1&& (
                         <div>
                            
-                    <button style={{border:'none', backgroundColor:'transparent',width:"230px", cursor:'pointer'}} className="indi_pos1" onClick={clickHandler}>
+                    <button style={{border:'none', backgroundColor:'transparent',width:"250px", cursor:'pointer'}} className="indi_pos1" onClick={clickHandler}>
                         <img src="assets/images/wady/1.png"  onClick={clickHandler}  role="..."/>
                     </button>                            
                     
@@ -71,16 +71,16 @@ render(){
                     {i===2&& (
                         <div>
                             
-                    <button style={{border:'none', backgroundColor:'transparent',width:"300px", cursor:'pointer'}} className="indi_pos2" onClick={clickHandler}>
+                    <button style={{border:'none', backgroundColor:'transparent',width:"240px", cursor:'pointer'}} className="indi_pos2" onClick={clickHandler}>
                         <img src="assets/images/wady/2.png"  onClick={clickHandler}  role="..."/>
                     </button>                            
                     
                     </div>
                      )}
-                     {i===1&& (
+                     {i===3&& (
                         <div>
                             
-                    <button style={{border:'none', backgroundColor:'transparent',width:"310px", cursor:'pointer'}} className="indi_pos3" onClick={clickHandler}>
+                    <button style={{border:'none', backgroundColor:'transparent',width:"185px", cursor:'pointer'}} className="indi_pos3" onClick={clickHandler}>
                         <img src="assets/images/wady/3.png"  onClick={clickHandler}  role="..."/>
                     </button>                            
                     

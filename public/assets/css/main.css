@@ -60,21 +60,21 @@ h5
 .indi_pos1
 {
     position: absolute;
-    left: -5px !important;
+    left: 25px !important;
     top: -165px;
 
 }
 .indi_pos2
 {
     position: absolute;
-    left: 210px !important;
+    left: 265px !important;
     top: -165px;
 
 }
 .indi_pos3
 {
     position: absolute;
-    top: -165px;
+    top: -167px;
     left: 495px !important;
 
 }
@@ -328,9 +328,13 @@ i.fa.fa-bars:before
 {
     position: absolute;
     top: 0;
-    left: 85%;
+    left: 80%;
     width: 100%;
     z-index: 9999;
+}
+.new_logo_img
+{
+    width: 350px;
 }
 /* .bggreen::before
 {
