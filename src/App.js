@@ -21,7 +21,11 @@ render(){
                 <a href="#" className="side-menu__toggler">
                   <i className="fa fa-bars" />
                 </a>
+                <a href="#nady" >
+                <img className="nady8" src="assets/images/wady/club 8 logo.png" />
+                </a>
               </div>
+              
               <div className="main-nav__main-navigation three float-left">
                 <ul className="main-nav__navigation-box">
                   <li>
@@ -43,18 +47,21 @@ render(){
         </div>
       </div>
     </div>
+    <div className="new_logo">
+                    <a href="#"><img src="assets/images/wady/new_logo.png" role="..." style={{backgroundColor:'white'}}/></a>
+                  </div>
     {/* Banner Section */}
     <section className="banner-section banner-three" style={{width:'100%',backgroundImage: 'url(assets/images/wady/textured-bg.jpg)', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}} id="home">
       
 
 
-    <Carousel showStatus={false} showThumbs={false} renderIndicator={(clickHandler, isSelected,i) =>
+    <Carousel autoPlay={true}   autoPlaySpeed={2000} infinite={true} showStatus={false} showThumbs={false} renderIndicator={(clickHandler, isSelected,i) =>
                 (
                 <div className="caro_indicators wow fadeInLeft" data-wow-delay="50ms">
-                    {i===1&& (
+                    {i===3&& (
                         <div>
                            
-                    <button style={{border:'none', backgroundColor:'transparent',width:"310px", cursor:'pointer'}} className="indi_pos1" onClick={clickHandler}>
+                    <button style={{border:'none', backgroundColor:'transparent',width:"230px", cursor:'pointer'}} className="indi_pos1" onClick={clickHandler}>
                         <img src="assets/images/wady/1.png"  onClick={clickHandler}  role="..."/>
                     </button>                            
                     
@@ -64,13 +71,13 @@ render(){
                     {i===2&& (
                         <div>
                             
-                    <button style={{border:'none', backgroundColor:'transparent',width:"310px", cursor:'pointer'}} className="indi_pos2" onClick={clickHandler}>
+                    <button style={{border:'none', backgroundColor:'transparent',width:"300px", cursor:'pointer'}} className="indi_pos2" onClick={clickHandler}>
                         <img src="assets/images/wady/2.png"  onClick={clickHandler}  role="..."/>
                     </button>                            
                     
                     </div>
                      )}
-                     {i===3&& (
+                     {i===1&& (
                         <div>
                             
                     <button style={{border:'none', backgroundColor:'transparent',width:"310px", cursor:'pointer'}} className="indi_pos3" onClick={clickHandler}>
@@ -83,89 +90,192 @@ render(){
                     </div>
                 )
             }>     
-                <div>
+              <div>
               <video autoPlay loop muted id="myVideo">
                 <source src={video} type="video/mp4" />
               </video>
-                  <div className="auto-container wow fadeInUp" data-wow-delay="250ms">
-                    <div className="content-box">
-                      <div className="content">
-                        <div className="inner">
-                          <div className="rectangle">
-                            <img src="assets/images/wady/WADI dark logo.png" className="logox" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
                   </div>
-                  </div>
+                  <div>
+                    <img src="assets/images/wady/Qr-Code-on-Bag-Rotator.png" className="slider-1" style={{marginTop:"-55px"}}  role="..."/>
 
+                    </div>
                     <div>
-                    <img src="assets/images/wady/pillar3.png" style={{marginTop:"-55px"}}  role="..."/>
+                    <img src="assets/images/wady/portfolio.jpg" style={{marginTop:"-55px"}} role="..."/>
                     </div>
-
-                   <div>
-                    <img src="assets/images/wady/pillar1.png" style={{marginTop:"-55px"}} role="..."/>
-                    </div>
-
                     <div>
-                    <img src="assets/images/wady/pillar2.png" style={{marginTop:"-55px"}}  role="..."/>
+                    <img src="assets/images/wady/Available-now-Header.jpg" style={{marginTop:"-55px"}}  role="..."/>
+
                     </div>
+
+                    
+                   
+
+                  
                 </Carousel>
-
-
-
-      {/* <div className="banner-carousel-three owl-theme owl-carousel">
-        <div className="slide-item">
-          <div className="image-layer">
-          <video autoPlay muted loop id="myVideo">
-            <source src="assets/videos/06_A'laf.mp4" type="video/mp4" />
-          </video>
-
-          </div>
-          <div className="auto-container">
-            <div className="content-box">
-              <div className="content">
-                <div className="inner">
-                  <div className="rectangle">
-                    <img src="assets/images/wady/WADI dark logo.png" className="logox" />
+    </section>
+    
+    <section>
+    <div className="factory_margin">
+        <div className="curved wow fadeInDown" data-wow-delay="100ms">
+        <img src="assets/images/wady/curved caption.png" className="curved_width"/>
+        </div>
+        <img src="assets/images/wady/Scan the Code.jpg" width="100%"/>
+      </div>
+    </section>
+    <div className="container-fullwidth" id="nady">
+      <section className="eco_friendly">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-12">
+              <div className="eco_friendly_content">
+                <img style={{width: '25%', padding:'5px', marginTop:'90px'}} className="wow fadeInLUp" data-wow-delay="150ms" src="assets/images/wady/club 8 logo.png" />
+                <div className="eco_friendly_title wow fadeInUp" data-wow-delay="150ms">
+                  <h2>برنامج نادي الثمانية</h2>
+                </div>
+                <div className="mt-5 leaf" id="products">
+                  <img src="assets/images/resources/leaf.png" alt />
+                </div>
+                <p style={{fontSize: 25, color: 'white', marginTop: 25}}>برنامج نادي الثمانية هي الطريقة لاعلاف الوادي بتتواصل بيها مع العملاء بتوعها من التجار و المربين  البرنامج ده بيتحمل من على جوجل العملاء يقدرو  عن طريقه يتأكدو ان المنتج المعاهم أصلي مش مضروب , كمان يقدرو يوصلوا  صوتهم و اقتراحتهم للشركة في نفس الوقت يقدروا يشتركوا في   برنامج حوافز اعلاف الوادي و يكسبوا هدايا و  حوافز كتيرة من الشركة</p>
+                <div className="mt-5 row">
+                  <div className="col wow fadeInLeft" data-wow-delay="50ms">
+                    <img src="assets/images/wady/Money icon.png" width="65%" />
+                    <h4 style={{color: 'white', marginTop: '40px'}}>عايز  توصل صوتك للشركة</h4>
+                  </div>
+                  <div className="col wow fadeInLeft" data-wow-delay="150ms">
+                    <img src="assets/images/wady/Employees Icon.png" width="65%" height="135px" />
+                    <h4 style={{color: 'white', marginTop:  '65px'}}>عايز تكسب حوافز</h4>
+                  </div>
+                  <div className="col wow fadeInLeft" data-wow-delay="250ms">
+                    <img src="assets/images/wady/Gifts Icon.png" width="65%" />
+                    <h4 style={{color: 'white', marginTop: '55px'}}>عايز تكسب هدايا</h4>
+                  </div>
+                  <div className="col wow fadeInLeft" data-wow-delay="350ms">
+                    <img src="assets/images/wady/Original Icon.png" width="65%" />
+                    <h4 style={{color: 'white', marginTop: 25}}>عايز تتأكد ان الشيكارة أصلية</h4>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div> */}
-
-    </section>
-    {/*End Banner Section */}
-
-    <section>
-    <div className="factory_margin">
-        <div className="curved wow fadeInDown" data-wow-delay="100ms">
-        <img src="assets/images/wady/curved caption.png" className="curved_width"/>
+      </section>
+    </div>
+    <div className="container-fullwidth">
+      <div style={{backgroundImage: 'url(assets/images/wady/textured-bg.jpg)', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+        <div>
+          <img src="assets/images/wady/curved arrow.png" className="arrowz" />
         </div>
-        <img src="assets/images/wady/factory image .png" width="100%" />
+        <div className="eshterek">
+          <h3 style={{textAlign: 'right'}}>يبقى اشترك معنا في نادي <br /> !الثمانية</h3>
+          <h3 style={{textAlign: 'right'}} className="edkhol">ادخل و نزل البرنامج</h3>
+        </div>
+        <div>
+          <img src="assets/images/wady/club 8- phone mock.png" width="50%" className="phone-mock wow fadeInLeft" data-wow-delay="250ms" />
+          <img src="assets/images/wady/QR Code- WADI.png" className="qr_img wow fadeInRight" data-wow-delay="250ms" style={{backgroundColor:'white'}} />
+        </div>
+        
       </div>
-      {/* Slide Item */}
-      
-      {/* <div className="header_3_images">
-        <img src="assets/images/wady/3 part leaf copy.png" className="leaf-width" />
-      </div> */}
-    </section>
-
+    </div>
     {/* Banner Section */}
     <section className="recent_project_three" style={{backgroundImage: 'url(assets/images/wady/textured-bg.jpg)', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
       <div className="container-fullwidth first_slider_position">
-        <section className="eco_friendly wow fadeInLeft" data-wow-delay="900ms">
+      <section className="eco_friendly bggreen" >
           <div className="container">
             <div className="row">
               <div className="col-xl-12">
                 <div className="eco_friendly_content">
-                  <div>
-                    <img style={{width: 200, marginTop: 15}} src="assets/images/wady/chicken logo.png" />
+                <div className="auto-container">
+                    <div className="content-box">
+                      <div className="content">
+                        <div className="inner">
+                          <div className="rectangle2">
+                            <img src="assets/images/wady/A'laf LAF Logo.png" className="logox" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div className="eco_friendly_title eco_title">
+                  <div className="eco_friendly_title eco_title" style={{marginTop:'95px'}}>
+                    <h2>منتجات أعلاف الماشية</h2>
+                  </div>
+                  <div className="leaf" id="products">
+                    <img src="assets/images/resources/leaf.png" alt />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div className="pt-5 recent_project_three_carousel second_slider_height owl-theme owl-carousel" style={{backgroundColor:"#29a329"}}>
+          {/*Item*/}
+          <div className="project_three_single wow fadeInUp" data-wow-delay="1200ms">
+            <div className="project_three_image img_padding">
+              <img src="assets/images/wady/Super Corn.png" alt />
+              <div className="project_three_content">
+                <h2> مخلوط سوبر سيلاج ذرة </h2>
+              </div>
+              <div className="project_three_hover_box">
+              </div>
+            </div>
+          </div>
+          {/*Item*/}
+          <div className="project_three_single wow fadeInUp" data-wow-delay="600ms">
+            <div className="project_three_image img_padding">
+              <img src="assets/images/wady/TMR Sheep.png" alt />
+              <div className="project_three_content">
+                <h2> خلطة أعلاف أغنام متكاملة</h2>
+              </div>
+              <div className="project_three_hover_box">
+                <p> هتبني جهاز هضمي يقدر يمتص العناصر الغذائية بكفاءة عالية وتحمي القطيع من الأمراض المعوية وتبقى مستعد للمرحلة الأصعب في الدورة </p>
+              </div>
+            </div>
+          </div>
+          {/*Item*/}
+          <div className="project_three_single wow fadeInUp" data-wow-delay="900ms">
+            <div className="project_three_image img_padding">
+              <img src="assets/images/wady/TMR Fattening.png" alt />
+              <div className="project_three_content">
+                <h2> خلطة تسمين ماشية متكاملة</h2>
+              </div>
+              <div className="project_three_hover_box">
+                <p> مرحلة مهمة جدا وفيها تحديات مرضية كتير، وعلف الوادي الناهي 19% الوحيد اللي بيضمنلك أعلى مقاومة للأمراض والإجهاد الحراري في المرحلة دي وبوصل القطيع بتاعك لأعلى وزن عند أقل عمر
+                </p>
+              </div>
+            </div>
+          </div>
+          {/*Item*/}
+          <div className="project_three_single wow fadeInUp" data-wow-delay="300ms">
+            <div className="project_three_image img_padding">
+              <img src="assets/images/wady/TMR Milking.png" alt />
+              <div className="project_three_content">
+                <h2> خلطة حلاب ماشية عالي الادرار</h2>
+              </div>
+              <div className="project_three_hover_box">
+                <p> و اللي بيتكون من العناصر الأعلى هضمية , لبداية مثالية , ومكاسب خيالية</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div className="container-fullwidth second_slider_position">
+      <section className="eco_friendly bgyellow">
+          <div className="container">
+            <div className="row">
+              <div className="col-xl-12">
+                <div className="eco_friendly_content">
+                <div className="auto-container">
+                    <div className="content-box">
+                      <div className="content">
+                        <div className="inner">
+                          <div className="rectangle2">
+                            <img src="assets/images/wady/A'laf Poultry logo.png" className="logox" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>  
+                  <div className="eco_friendly_title eco_title" style={{marginTop:'95px'}}>
                     <h2>منتجات أعلاف الدواجن</h2>
                   </div>
                   <div className="leaf" id="products">
@@ -176,7 +286,7 @@ render(){
             </div>
           </div>
         </section>
-        <div className="pt-5 recent_project_three_carousel owl-theme owl-carousel wow fadeInLeft" data-wow-delay="50ms" style={{backgroundColor:'#bea999'}}>
+        <div className="pt-5 recent_project_three_carousel owl-theme owl-carousel" style={{backgroundColor:'#ffaa00'}}>
           {/*Item*/}
           <div className="project_three_single wow fadeInUp" data-wow-delay="600ms">
             <div className="project_three_image">
@@ -294,8 +404,7 @@ render(){
               </div>
             </div>
           </div>
-          {/*Item*/}
-          <div className="project_three_single wow fadeInUp" data-wow-delay="1200ms">
+          {/* <div className="project_three_single wow fadeInUp" data-wow-delay="1200ms">
             <div className="project_three_image">
               <img src="assets/images/wady/16- Zahbeya2(Bayad5) (5.900 L.E) Per Ton.jpg" alt />
               <div className="project_three_content">
@@ -305,7 +414,6 @@ render(){
               </div>
             </div>
           </div>
-          {/*Item*/}
           <div className="project_three_single wow fadeInUp" data-wow-delay="1200ms">
             <div className="project_three_image">
               <img src="assets/images/wady/17- Zahbeya2(Bayad7) (5.750 L.E) Per Ton.png" alt />
@@ -315,7 +423,7 @@ render(){
               <div className="project_three_hover_box">
               </div>
             </div>
-          </div>
+          </div> */}
           {/*Item*/}
           <div className="project_three_single wow fadeInUp" data-wow-delay="1200ms">
             <div className="project_three_image">
@@ -373,131 +481,10 @@ render(){
           </div>
         </div>
       </div>
-      <div className="container-fullwidth second_slider_position">
-        <section className="eco_friendly wow fadeInRight" data-wow-delay="850ms">
-          <div className="container">
-            <div className="row">
-              <div className="col-xl-12">
-                <div className="eco_friendly_content">
-                  <div>
-                    <img style={{width: 200, marginTop: 15}} src="assets/images/wady/cow logo.png" />
-                  </div>
-                  <div className="eco_friendly_title eco_title">
-                    <h2>منتجات أعلاف الماشية</h2>
-                  </div>
-                  <div className="leaf" id="products">
-                    <img src="assets/images/resources/leaf.png" alt />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <div className="pt-5 recent_project_three_carousel second_slider_height owl-theme owl-carousel wow fadeInRight" data-wow-delay="50ms" style={{backgroundColor:'#bea999'}}>
-          {/*Item*/}
-          <div className="project_three_single wow fadeInUp" data-wow-delay="1200ms">
-            <div className="project_three_image img_padding">
-              <img src="assets/images/wady/Super Corn.png" alt />
-              <div className="project_three_content">
-                <h2> مخلوط سوبر سيلاج ذرة </h2>
-              </div>
-              <div className="project_three_hover_box">
-              </div>
-            </div>
-          </div>
-          {/*Item*/}
-          <div className="project_three_single wow fadeInUp" data-wow-delay="600ms">
-            <div className="project_three_image img_padding">
-              <img src="assets/images/wady/TMR Sheep.png" alt />
-              <div className="project_three_content">
-                <h2> خلطة أعلاف أغنام متكاملة</h2>
-              </div>
-              <div className="project_three_hover_box">
-                <p> هتبني جهاز هضمي يقدر يمتص العناصر الغذائية بكفاءة عالية وتحمي القطيع من الأمراض المعوية وتبقى مستعد للمرحلة الأصعب في الدورة </p>
-              </div>
-            </div>
-          </div>
-          {/*Item*/}
-          <div className="project_three_single wow fadeInUp" data-wow-delay="900ms">
-            <div className="project_three_image img_padding">
-              <img src="assets/images/wady/TMR Fattening.png" alt />
-              <div className="project_three_content">
-                <h2> خلطة تسمين ماشية متكاملة</h2>
-              </div>
-              <div className="project_three_hover_box">
-                <p> مرحلة مهمة جدا وفيها تحديات مرضية كتير، وعلف الوادي الناهي 19% الوحيد اللي بيضمنلك أعلى مقاومة للأمراض والإجهاد الحراري في المرحلة دي وبوصل القطيع بتاعك لأعلى وزن عند أقل عمر
-                </p>
-              </div>
-            </div>
-          </div>
-          {/*Item*/}
-          <div className="project_three_single wow fadeInUp" data-wow-delay="300ms">
-            <div className="project_three_image img_padding">
-              <img src="assets/images/wady/TMR Milking.png" alt />
-              <div className="project_three_content">
-                <h2> خلطة حلاب ماشية عالي الادرار</h2>
-              </div>
-              <div className="project_three_hover_box">
-                <p> و اللي بيتكون من العناصر الأعلى هضمية , لبداية مثالية , ومكاسب خيالية</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
-    <div className="container-fullwidth" id="nady">
-      <section className="eco_friendly">
-        <div className="container">
-          <div className="row">
-            <div className="col-xl-12">
-              <div className="eco_friendly_content">
-                <img style={{width: '30%'}} className="wow fadeInLUp" data-wow-delay="150ms" src="assets/images/wady/club 8 logo.png" />
-                <div className="eco_friendly_title wow fadeInUp" data-wow-delay="150ms">
-                  <h2>برنامج نادي الثمانية</h2>
-                </div>
-                <div className="mt-5 leaf" id="products">
-                  <img src="assets/images/resources/leaf.png" alt />
-                </div>
-                <p style={{fontSize: 25, color: 'white', marginTop: 25}}>برنامج نادي الثمانية هي الطريقة لاعلاف الوادي بتتواصل بيها مع العملاء بتوعها من التجار و المربين  البرنامج ده بيتحمل من على جوجل العملاء يقدرو  عن طريقه يتأكدو ان المنتج المعاهم أصلي مش مضروب , كمان يقدرو يوصلوا  صوتهم و اقتراحتهم للشركة في نفس الوقت يقدروا يشتركوا في   برنامج حوافز اعلاف الوادي و يكسبوا هدايا و  حوافز كتيرة من الشركة</p>
-                <div className="mt-5 row">
-                  <div className="col wow fadeInLeft" data-wow-delay="50ms">
-                    <img src="assets/images/wady/NEW CLUB 8 PNG 3.png" width="65%" />
-                    <h4 style={{color: 'white', marginTop: 25}}>عايز  توصل صوتك للشركة</h4>
-                  </div>
-                  <div className="col wow fadeInLeft" data-wow-delay="150ms">
-                    <img src="assets/images/wady/NEW CLUB 8 PNG 2.png" width="65%" />
-                    <h4 style={{color: 'white', marginTop: 25}}>عايز تكسب حوافز</h4>
-                  </div>
-                  <div className="col wow fadeInLeft" data-wow-delay="250ms">
-                    <img src="assets/images/wady/NEW CLUB 8 PNG 4.png" width="65%" />
-                    <h4 style={{color: 'white', marginTop: 25}}>عايز تكسب هدايا</h4>
-                  </div>
-                  <div className="col wow fadeInLeft" data-wow-delay="350ms">
-                    <img src="assets/images/wady/NEW CLUB 8 PNG 1.png" width="65%" />
-                    <h4 style={{color: 'white', marginTop: 25}}>عايز تتأكد ان الشيكارة أصلية</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-    <div className="container-fullwidth">
-      <div style={{backgroundImage: 'url(assets/images/wady/textured-bg.jpg)', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
-        <div>
-          <img src="assets/images/wady/curved arrow.png" className="arrowz" />
-        </div>
-        <div className="eshterek">
-          <h3 style={{textAlign: 'right'}}>يبقى اشترك معنا في نادي <br /> !الثمانية</h3>
-          <h3 style={{textAlign: 'right'}} className="edkhol">ادخل و نزل البرنامج</h3>
-        </div>
-        <div>
-          <img src="assets/images/wady/club 8- phone mock.png" width="50%" className="phone-mock wow fadeInLeft" data-wow-delay="250ms" />
-          <img src="assets/images/wady/QR Code- WADI.png" width="20%" className="wow fadeInRight" data-wow-delay="250ms" />
-        </div>
+    <div className="factory_margin">
+        <img src="assets/images/wady/contact.jpg" width="100%"/>
       </div>
-    </div>
     <footer className="site-footer">
       <div className="site-footer_farm_image"><img src="assets/images/resources/site-footer-farm.png" alt="Farm Image" /></div>
       <div className="container" id="contact">

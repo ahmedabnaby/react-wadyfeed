@@ -936,7 +936,7 @@ h6 {
     width: 100%;
     z-index: 99;
     background-color: #ffffff;
-    box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.06);
+    /* box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.06); */
     opacity: 0;
     -webkit-transform: translateY(-110%);
     transform: translateY(-110%);
@@ -1249,7 +1249,7 @@ h6 {
 }
 
 .topbar_three_nav_box .stricked-menu {
-    background-color: #938173;
+    background-color: transparent;
 }
 .stricked-menu .main_nav_header_three_content {
     padding-left: 0px;

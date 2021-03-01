@@ -52,6 +52,7 @@ h5
     width: 150%;
 
 }
+
 .carousel
 {
     overflow: visible !important;
@@ -59,7 +60,7 @@ h5
 .indi_pos1
 {
     position: absolute;
-    left: -55px !important;
+    left: -5px !important;
     top: -165px;
 
 }
@@ -74,7 +75,7 @@ h5
 {
     position: absolute;
     top: -165px;
-    left: 485px !important;
+    left: 495px !important;
 
 }
 #myVideo 
@@ -97,7 +98,7 @@ i.fa.fa-bars:before
 }
 .header-navigation
 {
-    height: 85px;
+    padding-bottom: 35px;
 }
 .main-nav__main-navigation 
 {
@@ -108,17 +109,32 @@ i.fa.fa-bars:before
     position: relative;
     margin-top: 27px;
     text-align: right;
+    font-weight: bolder !important;
     font-family: GE !important;
     font-size: 25px;
 }
 .rectangle
 {
-    background-color: whitesmoke;
-    opacity: 0.5;
+    position: relative;
+    top: -1005px;
+    left: 60%;
+    background-color: white;
     border: 1px;
-    margin-top: -655px;
     border-radius: 45px;
-    width: 50% !important;
+    width: 35% !important;
+    margin-left: auto;
+    display: none;
+    margin-right: auto;
+}
+.rectangle2
+{
+    position: relative;
+    top: 10px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border: 1px;
+    border-radius: 45px;
+    width: 25% !important;
     margin-left: auto;
     margin-right: auto;
 }
@@ -163,8 +179,7 @@ i.fa.fa-bars:before
 }
 .recent_project_three
 {
-    margin-top: -155px !important;
-    height: 920px !important;
+    height: 850px !important;
 }
 .project_three_content
 {
@@ -183,6 +198,7 @@ i.fa.fa-bars:before
     color: rgb(121, 121, 121);
     font-size: 15px;
     padding: 25px;
+    font-weight: 900 !important;
 }
 .project_three_hover_box
 {
@@ -199,6 +215,8 @@ i.fa.fa-bars:before
     color: gray;
     font-size: 12px;
     padding: 25px;
+    font-weight: bolder !important;
+
 }
 .img_padding
 {
@@ -228,7 +246,7 @@ i.fa.fa-bars:before
 {
     position: absolute;
     margin-top: -45px;
-    left: 45%;
+    left: 46%;
     width: 4%;
 }
 .edkhol
@@ -258,7 +276,7 @@ i.fa.fa-bars:before
 {
     width: 48%;
     position: relative;
-    top: -55px;
+    top: -121px;
     left: 1%;
 }
 .second_slider_position
@@ -266,7 +284,7 @@ i.fa.fa-bars:before
     width: 48%;
     position: relative;
     left: 51%;
-    top: -836px;
+    top: -865px;
 }
 .second_slider_height
 {
@@ -288,6 +306,40 @@ i.fa.fa-bars:before
 {
     width: 555px !important;
 }
+.nady8
+{
+    width: 180px;
+    position: relative;
+    left: 3%;
+    top: 15px;
+}
+.slider-1
+{
+    height: 1080px;
+}
+.rectangle
+{
+    position: relative;
+    top: -135px;
+    left: 42%;
+    width: 20% !important;
+}
+.new_logo
+{
+    position: absolute;
+    top: 0;
+    left: 85%;
+    width: 100%;
+    z-index: 9999;
+}
+/* .bggreen::before
+{
+    background-color: #29a329 !important;
+}
+.bgyellow::before
+{
+    background-color: #ffaa00 !important;
+} */
 @media (min-width:1280px) and (max-width:1365px)
 {
     .carousel .slide
@@ -298,7 +350,6 @@ i.fa.fa-bars:before
     .factory_margin
     {
         margin-top: 0px !important;
-        height: 960px !important;
     }
     .caro_indicators
     {
@@ -344,7 +395,7 @@ i.fa.fa-bars:before
     .second_slider_position
     {
         position: relative;
-        top: -760px;
+        top: -695px;
     }
     .second_slider_height
     {
@@ -360,19 +411,38 @@ i.fa.fa-bars:before
     }
     .recent_project_three
     {
-        height: 829px !important;
+        height: 755px !important;
     }
     .curved
     {
         position: absolute;
         /* bottom: 10px; */
-        left:55%;
-        margin-top: 555px;
-        width: 555px !important;
+        left:62%;
+        margin-top: 505px;
+        width: 455px !important;
     }
     .curved_width
     {
-        width: 555px !important;
+        width: 455px !important;
+    }
+    .slider-1
+    {
+        height: 700px !important;
+    }
+    .qr_img
+    {
+        width: 255px;
+        margin-top: 55px;
+        margin-left: -25px;
+    }
+    .rectangle2
+    {
+        margin-top: 15px;
+        border-radius: 35px;
+    }
+    .new_logo
+    {
+        left: 80%;
     }
 }
 @media (min-width:1366px) and (max-width:1439px)
@@ -385,7 +455,6 @@ i.fa.fa-bars:before
     .factory_margin
     {
         margin-top: 0px !important;
-        height: 960px !important;
     }
     .caro_indicators
     {
@@ -431,7 +500,7 @@ i.fa.fa-bars:before
     .second_slider_position
     {
         position: relative;
-        top: -776px;
+        top: -713px;
     }
     .second_slider_height
     {
@@ -461,7 +530,25 @@ i.fa.fa-bars:before
     {
         width: 555px !important;
     }
-
+    .slider-1
+    {
+        height: 770px !important;
+    }
+    .qr_img
+    {
+        width: 255px;
+        margin-top: 55px;
+        margin-left: -25px;
+    }
+    .rectangle2
+    {
+        margin-top: 15px;
+        border-radius: 35px;
+    }
+    .new_logo
+    {
+        left: 80%;
+    }
 }
 @media (min-width:1440px) and (max-width:1679px)
 {
@@ -487,7 +574,6 @@ i.fa.fa-bars:before
     .factory_margin
     {
         margin-top: 0px !important;
-        height: 1000px !important;
     }
     .caro_indicators
     {
@@ -528,16 +614,16 @@ i.fa.fa-bars:before
     .first_slider_position
     {
         position: relative;
-        top: -55px;
+        top: -50px;
     }
     .second_slider_position
     {
         position: relative;
-        top: -784px;
+        top: -725px;
     }
     .second_slider_height
     {
-        height: 416px !important;
+        height: 414px !important;
     }
     .img_padding
     {
@@ -563,6 +649,28 @@ i.fa.fa-bars:before
     {
         width: 555px !important;
     }
+    .slider-1
+    {
+        height: 815px !important;
+    }
+    .qr_img
+    {
+        width: 255px;
+        margin-top: 55px;
+        margin-left: 0px;
+    }
+    .rectangle2
+    {
+        margin-top: 15px;
+        border-radius: 35px;
+    }
+    /* .nady8
+    {
+        width: 20%;
+        position: relative;
+        left: 4%;
+        top: 10px;
+    } */
 
 }
 @media (min-width:1680px) and (max-width:1919px)
@@ -575,7 +683,6 @@ i.fa.fa-bars:before
     .factory_margin
     {
         margin-top: 0px !important;
-        height: 1200px !important;
     }
     .caro_indicators
     {
@@ -612,12 +719,12 @@ i.fa.fa-bars:before
     .first_slider_position
     {
         position: relative;
-        top: -55px;
+        top: -120px;
     }
     .second_slider_position
     {
         position: relative;
-        top: -801px;
+        top: -829px;
     }
     .second_slider_height
     {
@@ -633,19 +740,34 @@ i.fa.fa-bars:before
     }
     .recent_project_three
     {
-        height: 879px !important;
+        height: 779px !important;
     }
     .curved
     {
         position: absolute;
         /* bottom: 10px; */
         left:65%;
-        margin-top: 755px;
+        margin-top: 705px;
         width: 555px !important;
     }
     .curved_width
     {
         width: 555px !important;
+    }
+    .slider-1
+    {
+        height: 935px !important;
+    }
+    .qr_img
+    {
+        width: 255px;
+        margin-top: 55px;
+        margin-left: 0px;
+    }
+    .rectangle2
+    {
+        margin-top: 15px;
+        border-radius: 35px;
     }
 }
 @media (min-width:1956px) and (max-width: 2156px) /* 90% */
@@ -790,12 +912,12 @@ i.fa.fa-bars:before
     .first_slider_position
     {
         position: relative;
-        top: -55px;
+        top: -125px;
     }
     .second_slider_position
     {
         position: relative;
-        top: -904px;
+        top: -999px;
     }
     .second_slider_height
     {
@@ -828,5 +950,20 @@ i.fa.fa-bars:before
     .arrowz
     {
         margin-left: 72px;
+    }
+    .slider-1
+    {
+        height: 1435px !important;
+    }
+    .qr_img
+    {
+        width: 255px;
+        margin-top: 55px;
+        margin-left: 0px;
+    }
+    .rectangle2
+    {
+        margin-top: 15px;
+        border-radius: 35px;
     }
 }
