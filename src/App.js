@@ -480,7 +480,7 @@ render(){
       </div>
     </section>
     <div className="factory_margin">
-        <img src="assets/images/wady/contact.jpg" width="100%"/>
+        <img src="assets/images/wady/contact.png" width="100%"/>
       </div>
     <footer className="site-footer">
       <div className="site-footer_farm_image"><img src="assets/images/resources/site-footer-farm.png" alt="Farm Image" /></div>
