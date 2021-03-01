@@ -446,7 +446,7 @@ i.fa.fa-bars:before
     }
     .new_logo
     {
-        left: 80%;
+        left: 75%;
     }
 }
 @media (min-width:1366px) and (max-width:1439px)
@@ -551,7 +551,7 @@ i.fa.fa-bars:before
     }
     .new_logo
     {
-        left: 80%;
+        left: 75% !important;
     }
 }
 @media (min-width:1440px) and (max-width:1679px)
@@ -667,6 +667,10 @@ i.fa.fa-bars:before
     {
         margin-top: 15px;
         border-radius: 35px;
+    }
+    .new_logo
+    {
+        left: 77% !important;
     }
     /* .nady8
     {
