@@ -32,10 +32,10 @@ render(){
                     <a href="#home">الرئيسية</a>
                   </li>
                   <li>
-                    <a href="#products">منتجاتنا</a>
+                    <a href="#nady">برنامج نادي الثمانية</a>
                   </li>
                   <li>
-                    <a href="#nady">برنامج نادي الثمانية</a>
+                    <a href="#products">منتجاتنا</a>
                   </li>
                   <li>
                     <a href="#contact">تواصل معنا</a>
@@ -55,7 +55,7 @@ render(){
       
 
 
-    <Carousel autoPlay={true}   autoPlaySpeed={2000} infinite={true} showStatus={false} showThumbs={false} renderIndicator={(clickHandler, isSelected,i) =>
+    <Carousel interval={15000} infiniteLoop autoPlay showStatus={false} showThumbs={false} renderIndicator={(clickHandler, isSelected,i) =>
                 (
                 <div className="caro_indicators wow fadeInLeft" data-wow-delay="50ms">
                     {i===3&& (
@@ -116,9 +116,6 @@ render(){
     
     <section>
     <div className="factory_margin">
-        <div className="curved wow fadeInDown" data-wow-delay="100ms">
-        <img src="assets/images/wady/curved caption.png" className="curved_width"/>
-        </div>
         <img src="assets/images/wady/Scan the Code.jpg" width="100%"/>
       </div>
     </section>
@@ -132,7 +129,7 @@ render(){
                 <div className="eco_friendly_title wow fadeInUp" data-wow-delay="150ms">
                   <h2>برنامج نادي الثمانية</h2>
                 </div>
-                <div className="mt-5 leaf" id="products">
+                <div className="mt-5 leaf" id="nady">
                   <img src="assets/images/resources/leaf.png" alt />
                 </div>
                 <p style={{fontSize: 25, color: 'white', marginTop: 25}}>برنامج نادي الثمانية هي الطريقة لاعلاف الوادي بتتواصل بيها مع العملاء بتوعها من التجار و المربين  البرنامج ده بيتحمل من على جوجل العملاء يقدرو  عن طريقه يتأكدو ان المنتج المعاهم أصلي مش مضروب , كمان يقدرو يوصلوا  صوتهم و اقتراحتهم للشركة في نفس الوقت يقدروا يشتركوا في   برنامج حوافز اعلاف الوادي و يكسبوا هدايا و  حوافز كتيرة من الشركة</p>
@@ -177,7 +174,7 @@ render(){
       </div>
     </div>
     {/* Banner Section */}
-    <section className="recent_project_three" style={{backgroundImage: 'url(assets/images/wady/textured-bg.jpg)', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+    <section className="recent_project_three"  id="products" style={{backgroundImage: 'url(assets/images/wady/textured-bg.jpg)', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
       <div className="container-fullwidth first_slider_position">
       <section className="eco_friendly bggreen" >
           <div className="container">
@@ -198,7 +195,7 @@ render(){
                   <div className="eco_friendly_title eco_title" style={{marginTop:'95px'}}>
                     <h2>منتجات أعلاف الماشية</h2>
                   </div>
-                  <div className="leaf" id="products">
+                  <div className="leaf">
                     <img src="assets/images/resources/leaf.png" alt />
                   </div>
                 </div>
@@ -278,7 +275,7 @@ render(){
                   <div className="eco_friendly_title eco_title" style={{marginTop:'95px'}}>
                     <h2>منتجات أعلاف الدواجن</h2>
                   </div>
-                  <div className="leaf" id="products">
+                  <div className="leaf">
                     <img src="assets/images/resources/leaf.png" alt />
                   </div>
                 </div>
