@@ -139,16 +139,16 @@ render(){
                     <h4 style={{color: 'white', marginTop: '40px'}}>عايز  توصل صوتك للشركة</h4>
                   </div>
                   <div className="col wow fadeInLeft" data-wow-delay="150ms">
-                    <img src="assets/images/wady/Employees Icon.png" width="65%" height="135px" />
-                    <h4 style={{color: 'white', marginTop:  '65px'}}>عايز تكسب حوافز</h4>
+                    <img src="assets/images/wady/Employees Icon.png" width="65%"/>
+                    <h4 style={{color: 'white', marginTop:  '40px'}}>عايز تكسب حوافز</h4>
                   </div>
                   <div className="col wow fadeInLeft" data-wow-delay="250ms">
                     <img src="assets/images/wady/Gifts Icon.png" width="65%" />
-                    <h4 style={{color: 'white', marginTop: '55px'}}>عايز تكسب هدايا</h4>
+                    <h4 style={{color: 'white', marginTop: '40px'}}>عايز تكسب هدايا</h4>
                   </div>
                   <div className="col wow fadeInLeft" data-wow-delay="350ms">
                     <img src="assets/images/wady/Original Icon.png" width="65%" />
-                    <h4 style={{color: 'white', marginTop: 25}}>عايز تتأكد ان الشيكارة أصلية</h4>
+                    <h4 style={{color: 'white', marginTop: "40px"}}>عايز تتأكد ان الشيكارة أصلية</h4>
                   </div>
                 </div>
               </div>
