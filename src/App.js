@@ -22,7 +22,7 @@ render(){
                   <i className="fa fa-bars" />
                 </a>
                 <a href="#nady" >
-                <img className="nady8" src="assets/images/wady/club 8 logo.png" />
+                <img className="nady8" src="assets/images/wady/circle club 8 new.png" />
                 </a>
               </div>
               
@@ -58,10 +58,10 @@ render(){
     <Carousel interval={15000} infiniteLoop autoPlay showStatus={false} showThumbs={false} renderIndicator={(clickHandler, isSelected,i) =>
                 (
                 <div className="caro_indicators wow fadeInLeft" data-wow-delay="50ms">
-                    {i===1&& (
+                    {i===3&& (
                         <div>
                            
-                    <button style={{border:'none', backgroundColor:'transparent',width:"250px", cursor:'pointer'}} className="indi_pos1" onClick={clickHandler}>
+                    <button style={{border:'none', backgroundColor:'transparent',width:"190px", cursor:'pointer'}} className="indi_pos1" onClick={clickHandler}>
                         <img src="assets/images/wady/1.png"  onClick={clickHandler}  role="..."/>
                     </button>                            
                     
@@ -71,16 +71,16 @@ render(){
                     {i===2&& (
                         <div>
                             
-                    <button style={{border:'none', backgroundColor:'transparent',width:"240px", cursor:'pointer'}} className="indi_pos2" onClick={clickHandler}>
+                    <button style={{border:'none', backgroundColor:'transparent',width:"248px", cursor:'pointer'}} className="indi_pos2" onClick={clickHandler}>
                         <img src="assets/images/wady/2.png"  onClick={clickHandler}  role="..."/>
                     </button>                            
                     
                     </div>
                      )}
-                     {i===3&& (
+                     {i===1&& (
                         <div>
                             
-                    <button style={{border:'none', backgroundColor:'transparent',width:"185px", cursor:'pointer'}} className="indi_pos3" onClick={clickHandler}>
+                    <button style={{border:'none', backgroundColor:'transparent',width:"258px", cursor:'pointer'}} className="indi_pos3" onClick={clickHandler}>
                         <img src="assets/images/wady/3.png"  onClick={clickHandler}  role="..."/>
                     </button>                            
                     
@@ -167,7 +167,7 @@ render(){
           <h3 style={{textAlign: 'right'}} className="edkhol">ادخل و نزل البرنامج</h3>
         </div>
         <div>
-          <img src="assets/images/wady/club 8- phone mock.png" width="50%" className="phone-mock wow fadeInLeft" data-wow-delay="250ms" />
+          <img src="assets/images/wady/new mobile mock up.png" className="phone-mock wow fadeInLeft" data-wow-delay="250ms" />
           <img src="assets/images/wady/QR Code- WADI.png" className="qr_img wow fadeInRight" data-wow-delay="250ms" style={{backgroundColor:'white'}} />
         </div>
         

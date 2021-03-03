@@ -46,7 +46,7 @@ h5
 .caro_indicators
 {
     position: relative;   
-    left: 30%;
+    left: 28%;
     top: 5px;
     z-index: 1;
     width: 150%;
@@ -60,7 +60,7 @@ h5
 .indi_pos1
 {
     position: absolute;
-    left: 25px !important;
+    left: 86px !important;
     top: -165px;
 
 }
@@ -75,7 +75,7 @@ h5
 {
     position: absolute;
     top: -167px;
-    left: 495px !important;
+    left: 500px !important;
 
 }
 #myVideo 
@@ -230,7 +230,8 @@ i.fa.fa-bars:before
 .phone-mock
 {
     position: relative;
-    left: 10%;
+    left: 25%;
+    width: 22% !important;
 }
 .eshterek
 {
@@ -308,9 +309,9 @@ i.fa.fa-bars:before
 }
 .nady8
 {
-    width: 180px;
+    width: 160px;
     position: relative;
-    left: 3%;
+    left: 5%;
     top: 15px;
 }
 .slider-1
@@ -335,6 +336,11 @@ i.fa.fa-bars:before
 .new_logo_img
 {
     width: 350px;
+}
+.qr_img
+{
+    position: relative;
+    left: 25%;
 }
 /* .bggreen::before
 {
@@ -433,11 +439,19 @@ i.fa.fa-bars:before
     {
         height: 700px !important;
     }
+    .phone-mock
+    {
+        margin-top: 55px;
+    }
+    .nady8
+    {
+        margin-left: 15px;
+    }
     .qr_img
     {
         width: 255px;
-        margin-top: 55px;
-        margin-left: -25px;
+        margin-top: 155px;
+        left: 26%;
     }
     .rectangle2
     {
@@ -538,16 +552,24 @@ i.fa.fa-bars:before
     {
         height: 770px !important;
     }
-    .qr_img
-    {
-        width: 255px;
-        margin-top: 55px;
-        margin-left: -25px;
-    }
     .rectangle2
     {
         margin-top: 15px;
         border-radius: 35px;
+    }
+    .nady8
+    {
+        margin-left: 15px;
+    }
+    .qr_img
+    {
+        width: 255px;
+        margin-top: 55px;
+        margin-left: 30px;
+    }
+    .phone-mock
+    {
+        margin-top: 15px;
     }
     .new_logo
     {
@@ -657,11 +679,19 @@ i.fa.fa-bars:before
     {
         height: 815px !important;
     }
+    .nady8
+    {
+        margin-left: 15px;
+    }
     .qr_img
     {
         width: 255px;
         margin-top: 55px;
-        margin-left: 0px;
+        margin-left: 45px;
+    }
+    .phone-mock
+    {
+        margin-top: 15px;
     }
     .rectangle2
     {
@@ -672,14 +702,6 @@ i.fa.fa-bars:before
     {
         left: 77% !important;
     }
-    /* .nady8
-    {
-        width: 20%;
-        position: relative;
-        left: 4%;
-        top: 10px;
-    } */
-
 }
 @media (min-width:1680px) and (max-width:1919px)
 {
@@ -766,11 +788,23 @@ i.fa.fa-bars:before
     {
         height: 935px !important;
     }
+    .nady8
+    {
+        margin-left: 15px;
+    }
     .qr_img
     {
-        width: 255px;
+        width: 325px;
         margin-top: 55px;
-        margin-left: 0px;
+        margin-left: 45px;
+    }
+    .phone-mock
+    {
+        margin-top: 15px;
+    }
+    .arrowz
+    {
+        margin-left: -15px;
     }
     .rectangle2
     {
@@ -963,11 +997,19 @@ i.fa.fa-bars:before
     {
         height: 1435px !important;
     }
+    .nady8
+    {
+        margin-left: 15px;
+    }
     .qr_img
     {
-        width: 255px;
+        width: 20%;
         margin-top: 55px;
-        margin-left: 0px;
+        margin-left: 45px;
+    }
+    .phone-mock
+    {
+        margin-top: 15px;
     }
     .rectangle2
     {
