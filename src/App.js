@@ -58,10 +58,10 @@ render(){
     <Carousel interval={15000} infiniteLoop autoPlay showStatus={false} showThumbs={false} renderIndicator={(clickHandler, isSelected,i) =>
                 (
                 <div className="caro_indicators wow fadeInLeft" data-wow-delay="50ms">
-                    {i===3&& (
+                    {i===1&& (
                         <div>
                            
-                    <button style={{border:'none', backgroundColor:'transparent',width:"190px", cursor:'pointer'}} className="indi_pos1" onClick={clickHandler}>
+                    <button style={{border:'none', backgroundColor:'transparent',width:"267px", cursor:'pointer'}} className="indi_pos1" onClick={clickHandler}>
                         <img src="assets/images/wady/1.png"  onClick={clickHandler}  role="..."/>
                     </button>                            
                     
@@ -71,16 +71,16 @@ render(){
                     {i===2&& (
                         <div>
                             
-                    <button style={{border:'none', backgroundColor:'transparent',width:"248px", cursor:'pointer'}} className="indi_pos2" onClick={clickHandler}>
+                    <button style={{border:'none', backgroundColor:'transparent',width:"258px", cursor:'pointer'}} className="indi_pos2" onClick={clickHandler}>
                         <img src="assets/images/wady/2.png"  onClick={clickHandler}  role="..."/>
                     </button>                            
                     
                     </div>
                      )}
-                     {i===1&& (
+                     {i===3&& (
                         <div>
                             
-                    <button style={{border:'none', backgroundColor:'transparent',width:"258px", cursor:'pointer'}} className="indi_pos3" onClick={clickHandler}>
+                    <button style={{border:'none', backgroundColor:'transparent',width:"200px", cursor:'pointer'}} className="indi_pos3" onClick={clickHandler}>
                         <img src="assets/images/wady/3.png"  onClick={clickHandler}  role="..."/>
                     </button>                            
                     
