@@ -104,7 +104,7 @@ i.fa.fa-bars:before
     position: relative;
     top: 25px;
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     left: 45px;
     z-index: 9999;
 }
@@ -240,6 +240,10 @@ i.fa.fa-bars:before
 {
     padding: 10px;
 }
+.icon-width
+{
+    width: 65% !important;
+}
 .nemo
 {
     position: relative;
@@ -367,6 +371,10 @@ i.fa.fa-bars:before
 .footer_col_margin2
 {
     margin-left: -155px;
+}
+.contact_us_logo
+{
+    width: 200px;
 }
 /* .bggreen::before
 {
@@ -1044,7 +1052,16 @@ i.fa.fa-bars:before
     }
 }
 @media only screen and (max-width: 767px){
-
+    .main-nav__navigation-box li a
+    {
+        position: relative;
+        margin-top: 27px;
+        text-align: right;
+        font-weight: bolder !important;
+        font-family: GE !important;
+        font-size: 18px;
+        letter-spacing: 0px !important;
+    }
     .preloader_imgs
     {
         width: 25% !important;
@@ -1052,6 +1069,11 @@ i.fa.fa-bars:before
     .site_header__header_three_wrap
     {
         height: 85px !important;
+    }
+    .side-menu__close-btn
+    {
+        position: relative;
+        right: 90%;
     }
     .topbar_three_content
     {
@@ -1066,8 +1088,8 @@ i.fa.fa-bars:before
     .new_logo
     {
         position: absolute;
-        left: 56% !important;
-        width: 200px;
+        left: 67% !important;
+        width: 35%;
         z-index: 9999;
     }
     .new_logo_img
@@ -1077,8 +1099,8 @@ i.fa.fa-bars:before
     }
     .nady8
     {
-        width: 50px !important;
-        margin-left: 33px !important;
+        width: 55% !important;
+        margin-left: 38px !important;
         margin-top: 15px;
     }
     .carousel .slide
@@ -1104,26 +1126,37 @@ i.fa.fa-bars:before
         height: 222px !important;
         margin-top: -5px !important;
     }
+    .caro_indicators
+    {
+        position: relative;   
+        left: 25%;
+        top: 5px;
+        z-index: 1;
+        width: 160%;
+    }
     .indi_pos1
     {
-        left: -93px !important;
+        left: -15% !important;
+        /* left: -93px !important; */
         top: -105px;
-        width: 140px !important;
-        /* width: 132px !important; */
+        width: 24% !important;
+        /* width: 140px !important; */
     }
     .indi_pos2
     {
-        left: 35px !important;
+        left: 7% !important;
+        /* left: 35px !important; */
         top: -105px;
-        width: 136px !important;
-        /* width: 132px !important; */
+        width: 23.5% !important;
+        /* width: 136px !important; */
     }
     .indi_pos3
     {
-        left: 158px !important;
+        left: 28.5% !important;
+        /* left: 158px !important; */
         top: -105px;
-        width: 105px !important;
-        /* width: 102px !important; */
+        width: 18% !important;
+        /* width: 105px !important; */
     }
     .factory_margin
     {
@@ -1134,6 +1167,10 @@ i.fa.fa-bars:before
         width: 55%;
         padding: 5px;
         margin-top: 50px;
+    }
+    .icon-width
+    {
+        width: 40% !important;
     }
     .fontSizeSmaller
     {
@@ -1197,7 +1234,7 @@ i.fa.fa-bars:before
     {
         width: 48%;
         position: absolute;
-        top: 0%;
+        top: 47%;
         left: 0;
     }
     .second_slider_position
@@ -1205,7 +1242,7 @@ i.fa.fa-bars:before
         width: 48%;
         position: absolute;
         left: 0;
-        top: 47%;
+        top: 0%;
     }
     .second_slider_height
     {
@@ -1264,5 +1301,10 @@ i.fa.fa-bars:before
         position: relative;
         left: -2% !important;
         margin-top: 200px !important;
+    }
+    .contact_us_logo
+    {
+        width: 35%;
+        padding-bottom: 25px;
     }
 }

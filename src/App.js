@@ -135,19 +135,19 @@ render(){
                 <p className="fontSizeSmallers" style={{fontSize: 25, color: 'white', marginTop: 25}}>برنامج نادي الثمانية هي الطريقة لاعلاف الوادي بتتواصل بيها مع العملاء بتوعها من التجار و المربين  البرنامج ده بيتحمل من على جوجل العملاء يقدرو  عن طريقه يتأكدو ان المنتج المعاهم أصلي مش مضروب , كمان يقدرو يوصلوا  صوتهم و اقتراحتهم للشركة في نفس الوقت يقدروا يشتركوا في   برنامج حوافز اعلاف الوادي و يكسبوا هدايا و  حوافز كتيرة من الشركة</p>
                 <div className="mt-5 row">
                   <div className="col col-width wow fadeInLeft" data-wow-delay="50ms">
-                    <img src="assets/images/wady/Money icon.png" width="65%" />
+                    <img src="assets/images/wady/Money icon.png" className="icon-width" />
                     <h4 style={{color: 'white', marginTop: '40px'}}>عايز  توصل صوتك للشركة</h4>
                   </div>
                   <div className="col col-width wow fadeInLeft" data-wow-delay="150ms">
-                    <img src="assets/images/wady/Employees Icon.png" width="65%"/>
+                    <img src="assets/images/wady/Employees Icon.png" className="icon-width"/>
                     <h4 style={{color: 'white', marginTop:  '40px'}}>عايز تكسب حوافز</h4>
                   </div>
                   <div className="col col-width wow fadeInLeft" data-wow-delay="250ms">
-                    <img src="assets/images/wady/Gifts Icon.png" width="65%" />
+                    <img src="assets/images/wady/Gifts Icon.png" className="icon-width" />
                     <h4 style={{color: 'white', marginTop: '40px'}}>عايز تكسب هدايا</h4>
                   </div>
                   <div className="col col-width wow fadeInLeft" data-wow-delay="350ms">
-                    <img src="assets/images/wady/Original Icon.png" width="65%" />
+                    <img src="assets/images/wady/Original Icon.png" className="icon-width" />
                     <h4 style={{color: 'white', marginTop: "40px"}}>عايز تتأكد ان الشيكارة أصلية</h4>
                   </div>
                 </div>
@@ -488,9 +488,9 @@ render(){
         <div className="row">
           <div className="col-xl-12">
             <div className="eco_friendly_content footer_edits">
-              <img style={{width: 200}} src="assets/images/wady/contact us logo.png" />
+              <img className="contact_us_logo" src="assets/images/wady/contact us logo.png" />
               <div className="eco_friendly_title eco_title">
-                <h2>تواصل معنا</h2>
+                <h2 className="fontSizeSmaller">تواصل معنا</h2>
               </div>
             </div>
           </div>
