@@ -9,7 +9,7 @@ render(){
    
    <>
   <div className="preloader">
-    <img src="assets/images/xx.gif" alt />
+    <img src="assets/images/xx.gif" className="preloader_imgs" alt />
   </div>{/* /.preloader */}
   <div className="page-wrapper">
     <div className="site_header__header_three_wrap">
@@ -61,7 +61,7 @@ render(){
                     {i===1&& (
                         <div>
                            
-                    <button style={{border:'none', backgroundColor:'transparent',width:"267px", cursor:'pointer'}} className="indi_pos1" onClick={clickHandler}>
+                    <button className="indi_pos1" onClick={clickHandler}>
                         <img src="assets/images/wady/1.png"  onClick={clickHandler}  role="..."/>
                     </button>                            
                     
@@ -71,7 +71,7 @@ render(){
                     {i===2&& (
                         <div>
                             
-                    <button style={{border:'none', backgroundColor:'transparent',width:"258px", cursor:'pointer'}} className="indi_pos2" onClick={clickHandler}>
+                    <button className="indi_pos2" onClick={clickHandler}>
                         <img src="assets/images/wady/2.png"  onClick={clickHandler}  role="..."/>
                     </button>                            
                     
@@ -80,7 +80,7 @@ render(){
                      {i===3&& (
                         <div>
                             
-                    <button style={{border:'none', backgroundColor:'transparent',width:"200px", cursor:'pointer'}} className="indi_pos3" onClick={clickHandler}>
+                    <button className="indi_pos3" onClick={clickHandler}>
                         <img src="assets/images/wady/3.png"  onClick={clickHandler}  role="..."/>
                     </button>                            
                     
@@ -91,7 +91,7 @@ render(){
                 )
             }>     
               <div>
-              <video autoPlay loop muted id="myVideo">
+              <video autoPlay loop muted className="slider-v" id="myVideo">
                 <source src={video} type="video/mp4" />
               </video>
                   </div>
@@ -100,10 +100,10 @@ render(){
 
                     </div>
                     <div>
-                    <img src="assets/images/wady/portfolio.jpg" style={{marginTop:"-55px"}} role="..."/>
+                    <img src="assets/images/wady/portfolio.jpg" className="slider-2" style={{marginTop:"-55px"}} role="..."/>
                     </div>
                     <div>
-                    <img src="assets/images/wady/Available-now-Header.jpg" style={{marginTop:"-55px"}}  role="..."/>
+                    <img src="assets/images/wady/Available-now-Header.jpg" className="slider-3" style={{marginTop:"-55px"}}  role="..."/>
 
                     </div>
 
@@ -125,28 +125,28 @@ render(){
           <div className="row">
             <div className="col-xl-12">
               <div className="eco_friendly_content">
-                <img style={{width: '25%', padding:'5px', marginTop:'90px'}} className="wow fadeInLUp" data-wow-delay="150ms" src="assets/images/wady/club 8 logo.png" />
+                <img className="nady_old_logo wow fadeInLUp" data-wow-delay="150ms" src="assets/images/wady/club 8 logo.png" />
                 <div className="eco_friendly_title wow fadeInUp" data-wow-delay="150ms">
-                  <h2>برنامج نادي الثمانية</h2>
+                  <h2 className="fontSizeSmaller">برنامج نادي الثمانية</h2>
                 </div>
                 <div className="mt-5 leaf" id="nady">
                   <img src="assets/images/resources/leaf.png" alt />
                 </div>
-                <p style={{fontSize: 25, color: 'white', marginTop: 25}}>برنامج نادي الثمانية هي الطريقة لاعلاف الوادي بتتواصل بيها مع العملاء بتوعها من التجار و المربين  البرنامج ده بيتحمل من على جوجل العملاء يقدرو  عن طريقه يتأكدو ان المنتج المعاهم أصلي مش مضروب , كمان يقدرو يوصلوا  صوتهم و اقتراحتهم للشركة في نفس الوقت يقدروا يشتركوا في   برنامج حوافز اعلاف الوادي و يكسبوا هدايا و  حوافز كتيرة من الشركة</p>
+                <p className="fontSizeSmallers" style={{fontSize: 25, color: 'white', marginTop: 25}}>برنامج نادي الثمانية هي الطريقة لاعلاف الوادي بتتواصل بيها مع العملاء بتوعها من التجار و المربين  البرنامج ده بيتحمل من على جوجل العملاء يقدرو  عن طريقه يتأكدو ان المنتج المعاهم أصلي مش مضروب , كمان يقدرو يوصلوا  صوتهم و اقتراحتهم للشركة في نفس الوقت يقدروا يشتركوا في   برنامج حوافز اعلاف الوادي و يكسبوا هدايا و  حوافز كتيرة من الشركة</p>
                 <div className="mt-5 row">
-                  <div className="col wow fadeInLeft" data-wow-delay="50ms">
+                  <div className="col col-width wow fadeInLeft" data-wow-delay="50ms">
                     <img src="assets/images/wady/Money icon.png" width="65%" />
                     <h4 style={{color: 'white', marginTop: '40px'}}>عايز  توصل صوتك للشركة</h4>
                   </div>
-                  <div className="col wow fadeInLeft" data-wow-delay="150ms">
+                  <div className="col col-width wow fadeInLeft" data-wow-delay="150ms">
                     <img src="assets/images/wady/Employees Icon.png" width="65%"/>
                     <h4 style={{color: 'white', marginTop:  '40px'}}>عايز تكسب حوافز</h4>
                   </div>
-                  <div className="col wow fadeInLeft" data-wow-delay="250ms">
+                  <div className="col col-width wow fadeInLeft" data-wow-delay="250ms">
                     <img src="assets/images/wady/Gifts Icon.png" width="65%" />
                     <h4 style={{color: 'white', marginTop: '40px'}}>عايز تكسب هدايا</h4>
                   </div>
-                  <div className="col wow fadeInLeft" data-wow-delay="350ms">
+                  <div className="col col-width wow fadeInLeft" data-wow-delay="350ms">
                     <img src="assets/images/wady/Original Icon.png" width="65%" />
                     <h4 style={{color: 'white', marginTop: "40px"}}>عايز تتأكد ان الشيكارة أصلية</h4>
                   </div>
@@ -175,7 +175,7 @@ render(){
     </div>
     {/* Banner Section */}
     <section className="recent_project_three"  id="products" style={{backgroundImage: 'url(assets/images/wady/textured-bg.jpg)', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
-      <div className="container-fullwidth first_slider_position">
+      <div className="container-fullwidth col-width-products first_slider_position">
       <section className="eco_friendly bggreen" >
           <div className="container">
             <div className="row">
@@ -193,7 +193,7 @@ render(){
                     </div>
                   </div>
                   <div className="eco_friendly_title eco_title" style={{marginTop:'95px'}}>
-                    <h2>منتجات أعلاف الماشية</h2>
+                    <h2 className="fontSizeSmaller-products">منتجات أعلاف الماشية</h2>
                   </div>
                   <div className="leaf">
                     <img src="assets/images/resources/leaf.png" alt />
@@ -255,7 +255,7 @@ render(){
         </div>
         
       </div>
-      <div className="container-fullwidth second_slider_position">
+      <div className="container-fullwidth col-width-products second_slider_position">
       <section className="eco_friendly bgyellow">
           <div className="container">
             <div className="row">
@@ -273,7 +273,7 @@ render(){
                     </div>
                   </div>  
                   <div className="eco_friendly_title eco_title" style={{marginTop:'95px'}}>
-                    <h2>منتجات أعلاف الدواجن</h2>
+                    <h2 className="fontSizeSmaller-products">منتجات أعلاف الدواجن</h2>
                   </div>
                   <div className="leaf">
                     <img src="assets/images/resources/leaf.png" alt />
@@ -487,7 +487,7 @@ render(){
       <div className="container" id="contact">
         <div className="row">
           <div className="col-xl-12">
-            <div className="eco_friendly_content">
+            <div className="eco_friendly_content footer_edits">
               <img style={{width: 200}} src="assets/images/wady/contact us logo.png" />
               <div className="eco_friendly_title eco_title">
                 <h2>تواصل معنا</h2>
@@ -499,14 +499,14 @@ render(){
                           
                           </div> */}
         <div className="row">
-          <div className="col" style={{marginLeft: '-455px'}}>
+          <div className="col footer_col_margin">
             <div className="eco_friendly_content">
               <div className="eco_friendly_title">
                 <p style={{fontSize: 30, color: 'white', textAlign: 'right'}}>  هل لديك أي اسئلة؟<br /> <br /> 19528 تواصل معنا على الخط الساخن </p>
               </div>
             </div>
           </div>
-          <div className="col" style={{marginLeft: '-155px'}}>
+          <div className="col footer_col_margin2">
             <div className="eco_friendly_content">
               <div className="eco_friendly_title">
                 <p style={{fontSize: 30, color: 'white', marginTop: 25, textAlign: 'right'}}> :  العنوان </p>
