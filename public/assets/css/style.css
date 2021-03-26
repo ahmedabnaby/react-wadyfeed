@@ -4015,7 +4015,7 @@ h6 {
 .site-footer_bottom {
     position: relative;
     display: block;
-    padding: 28px 0 29px;
+    padding-top: 20px;
     background: #938173;
 }
 .site-footer_bottom .container {
@@ -4028,7 +4028,7 @@ h6 {
 }
 
 .site-footer_bottom_copyright p {
-    color: #c5c9c4;
+    color: white;
     font-size: 16px;
     margin: 0;
 }

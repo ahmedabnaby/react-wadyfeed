@@ -125,7 +125,7 @@ render(){
           <div className="row">
             <div className="col-xl-12">
               <div className="eco_friendly_content">
-                <img className="nady_old_logo wow fadeInLUp" data-wow-delay="150ms" src="assets/images/wady/club 8 logo.png" />
+                <img className="nady_old_logo wow fadeInLUp" data-wow-delay="150ms" src="assets/images/wady/circle club 8 new.png" />
                 <div className="eco_friendly_title wow fadeInUp" data-wow-delay="150ms">
                   <h2 className="fontSizeSmaller">برنامج نادي الثمانية</h2>
                 </div>
@@ -158,7 +158,7 @@ render(){
       </section>
     </div>
     <div className="container-fullwidth">
-      <div style={{backgroundImage: 'url(assets/images/wady/textured-bg.jpg)', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+      <div style={{backgroundImage: 'url(assets/images/wady/closeup3.jpg)', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
         <div>
           <img src="assets/images/wady/curved arrow.png" className="arrowz" />
         </div>
@@ -208,8 +208,8 @@ render(){
           <div className="project_three_single wow fadeInUp" data-wow-delay="1200ms">
             <div className="project_three_image img_padding">
               <img src="assets/images/wady/Super Corn.png" alt />
-              <div className="project_three_content">
-                <h2> مخلوط سوبر سيلاج ذرة </h2>
+              <div className="project_three_content" style={{backgroundColor:'brown'}}>
+                <h2 style={{color:'white', fontFamily:'Bold GE SS'}}> مخلوط سوبر سيلاج ذرة </h2>
               </div>
               <div className="project_three_hover_box">
               </div>
@@ -219,8 +219,8 @@ render(){
           <div className="project_three_single wow fadeInUp" data-wow-delay="600ms">
             <div className="project_three_image img_padding">
               <img src="assets/images/wady/TMR Sheep.png" alt />
-              <div className="project_three_content">
-                <h2> خلطة أعلاف أغنام متكاملة</h2>
+              <div className="project_three_content" style={{backgroundColor:'brown'}}>
+                <h2 style={{color:'white', fontFamily:'Bold GE SS'}}> خلطة أعلاف أغنام متكاملة</h2>
               </div>
               <div className="project_three_hover_box">
                 <p> هتبني جهاز هضمي يقدر يمتص العناصر الغذائية بكفاءة عالية وتحمي القطيع من الأمراض المعوية وتبقى مستعد للمرحلة الأصعب في الدورة </p>
@@ -231,8 +231,8 @@ render(){
           <div className="project_three_single wow fadeInUp" data-wow-delay="900ms">
             <div className="project_three_image img_padding">
               <img src="assets/images/wady/TMR Fattening.png" alt />
-              <div className="project_three_content">
-                <h2> خلطة تسمين ماشية متكاملة</h2>
+              <div className="project_three_content" style={{backgroundColor:'brown'}}>
+                <h2 style={{color:'white', fontFamily:'Bold GE SS'}}> خلطة تسمين ماشية متكاملة</h2>
               </div>
               <div className="project_three_hover_box">
                 <p> مرحلة مهمة جدا وفيها تحديات مرضية كتير، وعلف الوادي الناهي 19% الوحيد اللي بيضمنلك أعلى مقاومة للأمراض والإجهاد الحراري في المرحلة دي وبوصل القطيع بتاعك لأعلى وزن عند أقل عمر
@@ -244,8 +244,8 @@ render(){
           <div className="project_three_single wow fadeInUp" data-wow-delay="300ms">
             <div className="project_three_image img_padding">
               <img src="assets/images/wady/TMR Milking.png" alt />
-              <div className="project_three_content">
-                <h2> خلطة حلاب ماشية عالي الادرار</h2>
+              <div className="project_three_content" style={{backgroundColor:'brown'}}>
+                <h2 style={{color:'white', fontFamily:'Bold GE SS'}}> خلطة حلاب ماشية عالي الادرار</h2>
               </div>
               <div className="project_three_hover_box">
                 <p> و اللي بيتكون من العناصر الأعلى هضمية , لبداية مثالية , ومكاسب خيالية</p>
@@ -288,9 +288,9 @@ render(){
           <div className="project_three_single wow fadeInUp" data-wow-delay="600ms">
             <div className="project_three_image">
               <img src="assets/images/wady/2- Namy (7.350 L.E)Per Ton.png" alt />
-              <div className="project_three_content">
-                <h2> %نامي 21</h2>
-                <h2 style={{marginTop: '-50px'}}> (من عمر 11 يوم - 21 يوم)</h2>
+              <div className="project_three_content" style={{backgroundColor:'red'}}>
+                <h2 style={{color:'white', fontFamily:'Bold GE SS'}}> %نامي 21</h2>
+                <h2 style={{marginTop: '-50px', color:'white', fontFamily:'Bold GE SS'}}> (من عمر 11 يوم - 21 يوم)</h2>
               </div>
               <div className="project_three_hover_box">
                 <p> هتبني جهاز هضمي يقدر يمتص العناصر الغذائية بكفاءة عالية وتحمي القطيع من الأمراض المعوية وتبقى مستعد للمرحلة الأصعب في الدورة </p>
@@ -301,9 +301,9 @@ render(){
           <div className="project_three_single wow fadeInUp" data-wow-delay="850ms">
             <div className="project_three_image">
               <img src="assets/images/wady/3- Nahy (7.300 L.E)Per Ton.png" alt />
-              <div className="project_three_content">
-                <h2> %ناهي 19</h2>
-                <h2 style={{marginTop: '-50px'}}> (من عمر 25 يوم - حتى يوم البيع)</h2>
+              <div className="project_three_content" style={{backgroundColor:'red'}}>
+                <h2 style={{color:'white', fontFamily:'Bold GE SS'}}> %ناهي 19</h2>
+                <h2 style={{marginTop: '-50px', color:'white', fontFamily:'Bold GE SS'}}> (من عمر 25 يوم - حتى يوم البيع)</h2>
               </div>
               <div className="project_three_hover_box">
                 <p> مرحلة مهمة جدا وفيها تحديات مرضية كتير، وعلف الوادي الناهي 19% الوحيد اللي بيضمنلك أعلى مقاومة للأمراض والإجهاد الحراري في المرحلة دي وبوصل القطيع بتاعك لأعلى وزن عند أقل عمر
@@ -315,9 +315,9 @@ render(){
           <div className="project_three_single wow fadeInUp" data-wow-delay="300ms">
             <div className="project_three_image">
               <img src="assets/images/wady/1- Bady (7.450 L.E) Per Ton.png" alt />
-              <div className="project_three_content">
-                <h2> %بادي 23</h2>
-                <h2 style={{marginTop: '-50px'}}> (من عمر 1 يوم - 10 يوم)</h2>
+              <div className="project_three_content" style={{backgroundColor:'red'}}>
+                <h2 style={{color:'white', fontFamily:'Bold GE SS'}}> %بادي 23</h2>
+                <h2 style={{marginTop: '-50px', color:'white', fontFamily:'Bold GE SS'}}> (من عمر 1 يوم - 10 يوم)</h2>
               </div>
               <div className="project_three_hover_box">
                 <p> و اللي بيتكون من العناصر الأعلى هضمية , لبداية مثالية , ومكاسب خيالية</p>
@@ -328,8 +328,8 @@ render(){
           <div className="project_three_single wow fadeInUp" data-wow-delay="1200ms">
             <div className="project_three_image">
               <img src="assets/images/wady/5- Bady Nami (6.950 L.E)Per Ton.png" alt />
-              <div className="project_three_content">
-                <h2> % بادي نامي 21</h2>
+              <div className="project_three_content" style={{backgroundColor:'red'}}>
+                <h2 style={{color:'white', fontFamily:'Bold GE SS'}}> % بادي نامي 21</h2>
               </div>
               <div className="project_three_hover_box">
               </div>
@@ -339,8 +339,8 @@ render(){
           <div className="project_three_single wow fadeInUp" data-wow-delay="1200ms">
             <div className="project_three_image">
               <img src="assets/images/wady/10- Zahbeya(Badi1) (6.550 L.E) Per Ton.png" alt />
-              <div className="project_three_content">
-                <h2> % بادي 20 </h2>
+              <div className="project_three_content" style={{backgroundColor:'red'}}>
+                <h2 style={{color:'white', fontFamily:'Bold GE SS'}}> % بادي 20 </h2>
               </div>
               <div className="project_three_hover_box">
               </div>
@@ -350,8 +350,8 @@ render(){
           <div className="project_three_single wow fadeInUp" data-wow-delay="1200ms">
             <div className="project_three_image">
               <img src="assets/images/wady/12- Zahbeya(Nami1) (5.950 L.E) Per Ton.png" alt />
-              <div className="project_three_content">
-                <h2> %نامي 15</h2>
+              <div className="project_three_content" style={{backgroundColor:'red'}}>
+                <h2 style={{color:'white', fontFamily:'Bold GE SS'}}> %نامي 15</h2>
               </div>
               <div className="project_three_hover_box">
               </div>
@@ -361,8 +361,8 @@ render(){
           <div className="project_three_single wow fadeInUp" data-wow-delay="1200ms">
             <div className="project_three_image">
               <img src="assets/images/wady/13- Zahbeya(Tahderi) (5.975 L.E) Per Ton.png" alt />
-              <div className="project_three_content">
-                <h2> % تحضيري 14 </h2>
+              <div className="project_three_content" style={{backgroundColor:'red'}}>
+                <h2 style={{color:'white', fontFamily:'Bold GE SS'}}> % تحضيري 14 </h2>
               </div>
               <div className="project_three_hover_box">
               </div>
@@ -372,8 +372,8 @@ render(){
           <div className="project_three_single wow fadeInUp" data-wow-delay="1200ms">
             <div className="project_three_image">
               <img src="assets/images/wady/11- Zahbeya(Badi2) (6.200 L.E) Per Ton.png" alt />
-              <div className="project_three_content">
-                <h2> %بادي2 16 </h2>
+              <div className="project_three_content" style={{backgroundColor:'red'}}>
+                <h2 style={{color:'white', fontFamily:'Bold GE SS'}}> %بادي2 16 </h2>
               </div>
               <div className="project_three_hover_box">
               </div>
@@ -383,8 +383,8 @@ render(){
           <div className="project_three_single wow fadeInUp" data-wow-delay="1200ms">
             <div className="project_three_image">
               <img src="assets/images/wady/14- Zahbeya2(Bayad1) (6.200 L.E) Per Ton.png" alt />
-              <div className="project_three_content">
-                <h2> % إنتاجي 19</h2>
+              <div className="project_three_content" style={{backgroundColor:'red'}}>
+                <h2 style={{color:'white', fontFamily:'Bold GE SS'}}> % إنتاجي 19</h2>
               </div>
               <div className="project_three_hover_box">
               </div>
@@ -394,8 +394,8 @@ render(){
           <div className="project_three_single wow fadeInUp" data-wow-delay="1200ms">
             <div className="project_three_image">
               <img src="assets/images/wady/15- Zahbeya2(Bayad3) (6.050 L.E) Per Ton.png" alt />
-              <div className="project_three_content">
-                <h2> % إنتاجي 18</h2>
+              <div className="project_three_content" style={{backgroundColor:'red'}}>
+                <h2 style={{color:'white', fontFamily:'Bold GE SS'}}> % إنتاجي 18</h2>
               </div>
               <div className="project_three_hover_box">
               </div>
@@ -425,8 +425,8 @@ render(){
           <div className="project_three_single wow fadeInUp" data-wow-delay="1200ms">
             <div className="project_three_image">
               <img src="assets/images/wady/9- Kamla(Intag) (10.000 L.E)Per Ton.png" alt />
-              <div className="project_three_content">
-                <h2>  مركز مرحلة التربية للدجاج <br />% البياض 33</h2>
+              <div className="project_three_content" style={{backgroundColor:'red'}}>
+                <h2 style={{color:'white', fontFamily:'Bold GE SS'}}>  مركز مرحلة التربية للدجاج <br />% البياض 33</h2>
               </div>
               <div className="project_three_hover_box">
               </div>
@@ -436,8 +436,8 @@ render(){
           <div className="project_three_single wow fadeInUp" data-wow-delay="1200ms">
             <div className="project_three_image">
               <img src="assets/images/wady/8- Kamla(Tarbeya) (10.200 L.E)Per Ton.png" alt />
-              <div className="project_three_content">
-                <h2>  مركز مرحلة الإنتاج للدجاج<br />% البياض 30.5</h2>
+              <div className="project_three_content" style={{backgroundColor:'red'}}>
+                <h2 style={{color:'white', fontFamily:'Bold GE SS'}}>  مركز مرحلة الإنتاج للدجاج<br />% البياض 30.5</h2>
               </div>
               <div className="project_three_hover_box">
               </div>
@@ -447,8 +447,8 @@ render(){
           <div className="project_three_single wow fadeInUp" data-wow-delay="1200ms">
             <div className="project_three_image">
               <img src="assets/images/wady/6- Al Asly 15 (5.650 L.E)Per Ton.png" alt />
-              <div className="project_three_content">
-                <h2> %بياض إنتاجي 15</h2>
+              <div className="project_three_content" style={{backgroundColor:'red'}}>
+                <h2 style={{color:'white', fontFamily:'Bold GE SS'}}> %بياض إنتاجي 15</h2>
               </div>
               <div className="project_three_hover_box">
               </div>
@@ -458,8 +458,8 @@ render(){
           <div className="project_three_single wow fadeInUp" data-wow-delay="1200ms">
             <div className="project_three_image">
               <img src="assets/images/wady/7- Al Asly 16 (5.750 L.E)Per Ton.png" alt />
-              <div className="project_three_content">
-                <h2> %بياض إنتاجي 16</h2>
+              <div className="project_three_content" style={{backgroundColor:'red'}}>
+                <h2 style={{color:'white', fontFamily:'Bold GE SS'}}> %بياض إنتاجي 16</h2>
               </div>
               <div className="project_three_hover_box">
               </div>
@@ -469,8 +469,8 @@ render(){
           <div className="project_three_single wow fadeInUp" data-wow-delay="1200ms">
             <div className="project_three_image">
               <img src="assets/images/wady/4- Super Balady (6.500 L.E)Per Ton.png" alt />
-              <div className="project_three_content">
-                <h2> %سوبر بلدي 21</h2>
+              <div className="project_three_content" style={{backgroundColor:'red'}}>
+                <h2 style={{color:'white', fontFamily:'Bold GE SS'}}> %سوبر بلدي 21</h2>
               </div>
               <div className="project_three_hover_box">
               </div>
@@ -522,13 +522,8 @@ render(){
     <div className="site-footer_bottom">
       <div className="container">
         <div className="site-footer_bottom_copyright">
-          {/* <p>@ All copyright 2020, <a href="#">Layerdrops.com</a></p> */}
-        </div>
-        <div className="site-footer_bottom_menu">
-          <ul className="list-unstyled">
-            {/* <li><a href="#">Privacy Policy</a></li> */}
-            {/* <li><a href="#">Terms of Use</a></li> */}
-          </ul>
+        <p> <a href="#"><img src="assets/images/wady/facebook.png" width="45"/></a>
+         : تابعونا على</p>
         </div>
       </div>
     </div>

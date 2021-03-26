@@ -233,8 +233,7 @@ i.fa.fa-bars:before
     color: gray;
     font-size: 12px;
     padding: 25px;
-    font-weight: bolder !important;
-
+    font-weight: 900 !important;
 }
 .img_padding
 {
@@ -375,6 +374,10 @@ i.fa.fa-bars:before
 .contact_us_logo
 {
     width: 200px;
+}
+a:hover
+{
+    color: #ffaa00 !important;
 }
 /* .bggreen::before
 {
