@@ -65,7 +65,7 @@ h5
     border: none;
     background-color: transparent;
     cursor: pointer;
-    width: 267px !important;
+    width: 266px !important;
 
 }
 .indi_pos2
@@ -83,11 +83,11 @@ h5
 {
     position: absolute;
     top: -167px;
-    left: 584px !important;
+    left: 550px !important;
     border: none;
     background-color: transparent;
     cursor: pointer;
-    width: 200px !important;
+    width: 267px !important;
 
 }
 #myVideo 
@@ -1150,15 +1150,15 @@ a:hover
         left: 7% !important;
         /* left: 35px !important; */
         top: -105px;
-        width: 23.5% !important;
+        width: 24% !important;
         /* width: 136px !important; */
     }
     .indi_pos3
     {
-        left: 28.5% !important;
+        left: 26% !important;
         /* left: 158px !important; */
         top: -105px;
-        width: 18% !important;
+        width: 24% !important;
         /* width: 105px !important; */
     }
     .factory_margin
