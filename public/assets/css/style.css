@@ -3777,7 +3777,7 @@ h6 {
     position: relative;
     display: block;
     background: #bea999 !important;
-    padding: 34px 0 28px;
+    /* padding: 34px 0 28px; */
 }
 .site-footer_farm_image {
     position: absolute;

@@ -371,8 +371,6 @@
         max-width: 343px;
         margin-bottom: 35px;
     }
-    .funfact_one_single:nth-child(1) {
-    }
     .funfact_one_single:nth-child(2) {
         border-right: none;
     }
@@ -614,7 +612,7 @@
         line-height: 53px;
     }
     .site-footer {
-        padding: 114px 0 58px;
+        padding: 84px 0 8px;
     }
     .site-footer_bottom .container {
         justify-content: center;
@@ -805,8 +803,6 @@
     }
     .service_four {
         padding: 0px 0 83px;
-    }
-    .achieved_one_right-content {
     }
     .blog-four_btn {
         margin-bottom: 40px;
@@ -1191,9 +1187,6 @@
         margin-right: 0px;
         padding: 24px 0 23px;
     }
-
-    .main-nav__right {
-    }
     .main-nav__right .icon_cart_box {
         position: relative;
         top: -6px;
@@ -1221,7 +1214,7 @@
     .mobile_menu_icon_two {
         position: relative;
         display: inline-block;
-        float: left;
+        /* float: left; */
         padding: 20px 0;
     }
     .mobile_menu_icon_two a {

@@ -159,7 +159,7 @@ i.fa.fa-bars:before
 }
 .nady_old_logo
 {
-    width: 25%;
+    width: 20%;
     padding: 5px;
     margin-top: 90px;
 }
@@ -306,7 +306,7 @@ i.fa.fa-bars:before
     width: 48%;
     position: relative;
     left: 51%;
-    top: -865px;
+    top: -868px;
 }
 .second_slider_height
 {
@@ -378,6 +378,10 @@ i.fa.fa-bars:before
 a:hover
 {
     color: #ffaa00 !important;
+}
+.wadyGroup
+{
+    width: 20% !important;
 }
 /* .bggreen::before
 {
@@ -1167,7 +1171,7 @@ a:hover
     }
     .nady_old_logo
     {
-        width: 55%;
+        width: 50%;
         padding: 5px;
         margin-top: 50px;
     }
@@ -1309,5 +1313,278 @@ a:hover
     {
         width: 35%;
         padding-bottom: 25px;
+    }
+    .wadyGroup
+    {
+        width: 30% !important;
+    }
+}
+@media (min-width:768px) and (max-width:1279px){
+    .main-nav__navigation-box li a
+    {
+        position: relative;
+        margin-top: 27px;
+        text-align: right;
+        font-weight: bolder !important;
+        font-family: GE !important;
+        font-size: 18px;
+        letter-spacing: 0px !important;
+    }
+    .preloader_imgs
+    {
+        width: 25% !important;
+    }
+    .site_header__header_three_wrap
+    {
+        height: 85px !important;
+    }
+    .side-menu__close-btn
+    {
+        position: relative;
+        right: 90%;
+    }
+    .topbar_three_content
+    {
+        height: 85px !important;
+    }
+    .topbar_three_nav_box
+    {
+        position: absolute;
+        right: 92% !important;
+        top: -25px;
+    }
+    .new_logo
+    {
+        position: absolute;
+        left: 67% !important;
+        width: 35%;
+        z-index: 9999;
+    }
+    .new_logo_img
+    {
+        width: 100% !important;
+        z-index: 9999;
+    }
+    .nady8
+    {
+        width: 95% !important;
+        margin-left: 25px !important;
+        margin-top: 15px;
+    }
+    .carousel .slide
+    {
+        height: 490px !important;
+    }
+    #myVideo
+    {
+        width: 482px !important;
+    }
+    .slider-1
+    {
+        height: 384px !important;
+        margin-top: -5px !important;
+    }
+    .slider-2
+    {
+        height: 384px !important;
+        margin-top: -5px !important;
+    }
+    .slider-3
+    {
+        height: 384px !important;
+        margin-top: -5px !important;
+    }
+    .caro_indicators
+    {
+        position: relative;   
+        left: 30%;
+        top: -45px;
+        z-index: 1;
+        width: 130%;
+    }
+    .indi_pos1
+    {
+        left: -16% !important;
+        /* left: -93px !important; */
+        top: -105px;
+        width: 24% !important;
+        /* width: 140px !important; */
+    }
+    .indi_pos2
+    {
+        left: 7% !important;
+        /* left: 35px !important; */
+        top: -105px;
+        width: 24% !important;
+        /* width: 136px !important; */
+    }
+    .indi_pos3
+    {
+        left: 26.5% !important;
+        /* left: 158px !important; */
+        top: -105px;
+        width: 24% !important;
+        /* width: 105px !important; */
+    }
+    .factory_margin
+    {
+        margin-top: -10px;
+    }
+    .nady_old_logo
+    {
+        width: 35%;
+        padding: 5px;
+        margin-top: 50px;
+    }
+    .icon-width
+    {
+        width: 40% !important;
+    }
+    .fontSizeSmaller
+    {
+        font-size: 40px !important;
+        width: 100% !important;
+    }
+    .fontSizeSmallers
+    {
+        font-size: 22px !important;
+    }
+    .col-width
+    {
+        width: 100% !important;
+        padding: 13% !important;
+    }
+    .arrowz
+    {
+        width: 7%;
+    }
+    .eshterek
+    {
+        position: relative;
+        top: 80px;
+        right: 5%;
+        width: 100% !important;
+    }
+    .edkhol
+    {
+        position: relative;
+        top: 15px;
+        color: black;
+    }
+    .phone-mock
+    {
+        position: relative;
+        left: 5%;
+        top: 95px;
+        width: 45% !important;
+        padding-bottom: 125px;
+    }
+    .qr_img
+    {
+        position: relative;
+        left: 5%;
+        width: 45%;
+        margin-top: 55px;
+    }
+    .col-width-products
+    {
+        position: absolute !important;
+        top: 5px;
+        width: 120% !important;
+        padding: 15% !important;
+        left: -10% !important;
+    }
+    .recent_project_three
+    {
+        height: 3050px !important;
+    }
+    .first_slider_position
+    {
+        width: 48%;
+        position: absolute;
+        top: 47%;
+        left: 0;
+    }
+    .second_slider_position
+    {
+        width: 48%;
+        position: absolute;
+        left: 0;
+        top: 0%;
+    }
+    .second_slider_height
+    {
+        height: auto !important;
+    }
+    .rectangle2
+    {
+        position: relative;
+        top: 10px;
+        background-color: whitesmoke;
+        padding: 15px;
+        border: 1px;
+        border-radius: 45px;
+        width: 65% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fontSizeSmaller-products
+    {
+        white-space: nowrap;
+        font-size: 34px !important;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 5px !important;
+    }
+    .project_three_content
+    {
+        left: 50px;
+        width: 85%;
+        margin-top: 5px;
+    }
+    .project_three_content h2
+    {
+        font-size: 25px;
+    }
+    .project_three_hover_box
+    {
+        left: 50px;
+        width: 85%;
+        margin-bottom: 25px;
+    }
+    .project_three_hover_box p
+    {
+        font-size: 25px;
+    }
+    .project_three_image
+    {
+        padding: 20px !important;
+    }
+    .footer_edits
+    {
+        margin-top: -85px !important;
+    }
+    .footer_col_margin
+    {
+        position: relative;
+        left: 30%;
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+    }
+    .footer_col_margin2
+    {
+        position: relative;
+        left: -2% !important;
+        margin-top: 200px !important;
+    }
+    .contact_us_logo
+    {
+        width: 35%;
+        padding-bottom: 25px;
+    }
+    .wadyGroup
+    {
+        width: 30% !important;
     }
 }
