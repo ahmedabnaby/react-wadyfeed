@@ -167,6 +167,10 @@ i.fa.fa-bars:before
 {
     width: 25%;
 }
+.preloader_imgs
+{
+    width: 25% !important;
+}
 .header_3_images
 {
     position: absolute;
