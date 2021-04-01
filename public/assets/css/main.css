@@ -1399,23 +1399,21 @@ a:hover
         right: 92% !important;
         top: -25px;
     }
-    .new_logo
-    {
-        position: absolute;
-        left: 67% !important;
-        width: 35%;
-        z-index: 9999;
-    }
     .new_logo_img
     {
-        width: 100% !important;
+        position: absolute;
+        left: -10%;
+        top: 15px;
+        width: 40% !important;
         z-index: 9999;
     }
     .nady8
     {
-        width: 95% !important;
-        margin-left: 25px !important;
-        margin-top: 15px;
+        width: 55% !important;
+        margin-left: -33px !important;
+        width: 7% !important;
+        position: relative;
+        top: 72px;
     }
     .carousel .slide
     {
@@ -1514,8 +1512,10 @@ a:hover
     .edkhol
     {
         position: relative;
-        top: 15px;
-        color: black;
+        top: -215px;
+        color: white;
+        font-size: 25px;
+        right: 6% !important;
     }
     .phone-mock
     {
@@ -1632,5 +1632,14 @@ a:hover
     .wadyGroup
     {
         width: 30% !important;
+        position: relative;
+        top: 0;
+    }
+    .topbar_three_nav_box {
+        position: relative;
+        display: block;
+        max-width: 100% !important;
+        width: 100%;
+        left: -3%;
     }
 }
