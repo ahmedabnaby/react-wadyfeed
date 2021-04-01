@@ -487,7 +487,7 @@ render(){
       <div className="container" id="contact">
         <div className="row">
           <div className="col-xl-12">
-            <div className="eco_friendly_content footer_edits">
+            <div className="eco_friendly_content footer_margin footer_edits">
               <img className="contact_us_logo" src="assets/images/wady/contact us logo.png" />
               <div className="eco_friendly_title eco_title">
                 <h2 className="fontSizeSmaller">تواصل معنا</h2>
@@ -512,9 +512,9 @@ render(){
             <div className="eco_friendly_content">
               <div className="eco_friendly_title">
                 <p style={{fontSize: 25, color: 'white', marginTop: 25, textAlign: 'right'}}> :  العنوان </p>
-                <p style={{fontSize: 15, color: 'white', marginTop: 25, textAlign: 'right'}}>     مصنع أعلاف الوادي بالنوبارية  <a href="#" className="etegahat">أحصل على الاتجاهات</a>  </p>
-                <p style={{fontSize: 15, color: 'white', marginTop: 25, textAlign: 'right'}}>    مصنع أعلاف الوادي بالسادات  <a href="#" className="etegahat">أحصل على الاتجاهات</a></p>
-                <p style={{fontSize: 15, color: 'white', marginTop: 25, textAlign: 'right'}}>     المقر الرئيسي لشركة أعلاف الوادي  <a href="#" className="etegahat">أحصل على الاتجاهات</a></p>
+                <p style={{fontSize: 15, color: 'white', marginTop: 25, textAlign: 'right'}}>     مصنع أعلاف الوادي بالنوبارية  <a href="https://maps.app.goo.gl/3nTTXPxBv6eZxw177" className="etegahat">أحصل على الاتجاهات</a>  </p>
+                <p style={{fontSize: 15, color: 'white', marginTop: 25, textAlign: 'right'}}>    مصنع أعلاف الوادي بالسادات  <a href="https://www.google.com/maps/place/30%C2%B024'19.5%22N+30%C2%B035'22.0%22E/@30.4054031,30.5872469,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d30.4054031!4d30.5894356?hl=en" className="etegahat1">أحصل على الاتجاهات</a></p>
+                <p style={{fontSize: 15, color: 'white', marginTop: 25, textAlign: 'right'}}>     المقر الرئيسي لشركة أعلاف الوادي  <a href="https://www.google.com/maps/place/Wadi+Group/@30.0242481,31.0109596,17z/data=!3m1!4b1!4m5!3m4!1s0x14585a6b823883a1:0x3dd7399112191e2b!8m2!3d30.0242481!4d31.0131483?hl=en-US" className="etegahat2">أحصل على الاتجاهات</a></p>
               </div>
             </div>
           </div>

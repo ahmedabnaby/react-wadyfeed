@@ -287,6 +287,30 @@ i.fa.fa-bars:before
 }
 .etegahat
 {
+    position: relative;
+    left: -42px;
+    border: 1px;
+    border-radius: 40px;
+    background-color: #66594f;
+    font-size: 13px;
+    padding: 13px;
+    color: white;
+}
+.etegahat1
+{
+    position: relative;
+    left: -40px;
+    border: 1px;
+    border-radius: 40px;
+    background-color: #66594f;
+    font-size: 13px;
+    padding: 13px;
+    color: white;
+}
+.etegahat2
+{
+    position: relative;
+    left: -10px;
     border: 1px;
     border-radius: 40px;
     background-color: #66594f;
@@ -374,10 +398,12 @@ i.fa.fa-bars:before
 .footer_col_margin
 {
     margin-left: -455px;
+    margin-top: 155px;
 }
 .footer_col_margin2
 {
     margin-left: -155px;
+    margin-top: 155px;
 }
 .contact_us_logo
 {
@@ -391,13 +417,17 @@ a:hover
 {
     width: 10% !important;
     position: relative;
-    top: 125px;
+    top: 0px;
     z-index: 8888;
 }
 .fontSizeSmaller
 {
     font-size: 28px !important;
     width: 100% !important;
+}
+.footer_margin
+{
+    position: absolute;
 }
 /* .bggreen::before
 {
@@ -1380,6 +1410,21 @@ a:hover
     .etegahat
     {
         white-space: nowrap;
+        left: 0;
+    }
+    .etegahat1
+    {
+        white-space: nowrap;
+        left: 0;
+    }
+    .etegahat2
+    {
+        white-space: nowrap;
+        left: 0;
+    }
+    .footer_margin
+    {
+        position: relative;
     }
 
 }
@@ -1653,6 +1698,10 @@ a:hover
         width: 30% !important;
         position: relative;
         top: 0;
+    }
+    .footer_margin
+    {
+        position: relative;
     }
     .topbar_three_nav_box {
         position: relative;
