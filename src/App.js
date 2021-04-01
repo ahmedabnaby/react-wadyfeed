@@ -24,6 +24,9 @@ render(){
                 <a href="#nady" >
                 <img className="nady8" src="assets/images/wady/circle club 8 new.png" />
                 </a>
+                <div className="new_logo">
+                    <a href="#"><img src="assets/images/wady/wave_logo.png" className="new_logo_img" role="..."/></a>
+                  </div>
               </div>
               
               <div className="main-nav__main-navigation three float-left">
@@ -47,9 +50,6 @@ render(){
         </div>
       </div>
     </div>
-    <div className="new_logo">
-                    <a href="#"><img src="assets/images/wady/wave_logo.png" className="new_logo_img" role="..."/></a>
-                  </div>
     {/* Banner Section */}
     <section className="banner-section banner-three" style={{width:'100%',backgroundImage: 'url(assets/images/wady/textured-bg.jpg)', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}} id="home">
       
@@ -164,11 +164,11 @@ render(){
         </div>
         <div className="eshterek">
           <h3 style={{textAlign: 'right'}}>يبقى اشترك معنا في نادي <br /> !الثمانية</h3>
-          <h3 style={{textAlign: 'right'}} className="edkhol">ادخل و نزل البرنامج</h3>
         </div>
         <div>
           <img src="assets/images/wady/new mobile mock up.png" className="phone-mock wow fadeInLeft" data-wow-delay="250ms" />
           <img src="assets/images/wady/QR Code- WADI.png" className="qr_img wow fadeInRight" data-wow-delay="250ms" style={{backgroundColor:'white'}} />
+        <h3 style={{textAlign: 'right'}} className="edkhol">اسكان الكود و نزل <br/> برنامج نادي الثمانية </h3>
         </div>
         
       </div>
@@ -491,7 +491,7 @@ render(){
               <img className="contact_us_logo" src="assets/images/wady/contact us logo.png" />
               <div className="eco_friendly_title eco_title">
                 <h2 className="fontSizeSmaller">تواصل معنا</h2>
-                <a href="https://www.wadigroup.com.eg"><img className="wadyGroup" src="assets/images/wady/wadi.png" role="..." /></a>
+                <a href="https://www.wadigroup.com"><img className="wadyGroup" src="assets/images/wady/wadi.png" role="..." /></a>
 
               </div>
             </div>
@@ -504,7 +504,7 @@ render(){
           <div className="col footer_col_margin">
             <div className="eco_friendly_content">
               <div className="eco_friendly_title">
-                <p style={{fontSize: 30, color: 'white', textAlign: 'right'}}>  هل لديك أي اسئلة؟<br /> <br /> 19528 تواصل معنا على الخط الساخن </p>
+                <p style={{fontSize: 25, color: 'white', textAlign: 'right'}}>  هل لديك أي اسئلة؟<br /> <br /> 19528 تواصل معنا على الخط الساخن </p>
               </div>
             </div>
           </div>
@@ -512,9 +512,9 @@ render(){
             <div className="eco_friendly_content">
               <div className="eco_friendly_title">
                 <p style={{fontSize: 25, color: 'white', marginTop: 25, textAlign: 'right'}}> :  العنوان </p>
-                <p style={{fontSize: 15, color: 'white', marginTop: 25, textAlign: 'right'}}>    مصنع أعلاف الوادي بالسادات  <a href="#" className="etegahat">أحصل على الاتجاهات</a></p>
                 <p style={{fontSize: 15, color: 'white', marginTop: 25, textAlign: 'right'}}>     مصنع أعلاف الوادي بالنوبارية  <a href="#" className="etegahat">أحصل على الاتجاهات</a>  </p>
-                <p style={{fontSize: 15, color: 'white', marginTop: 25, textAlign: 'right'}}>    مصنع أعلاف الوادي بالقاهرة  <a href="#" className="etegahat">أحصل على الاتجاهات</a></p>
+                <p style={{fontSize: 15, color: 'white', marginTop: 25, textAlign: 'right'}}>    مصنع أعلاف الوادي بالسادات  <a href="#" className="etegahat">أحصل على الاتجاهات</a></p>
+                <p style={{fontSize: 15, color: 'white', marginTop: 25, textAlign: 'right'}}>     المقر الرئيسي لشركة أعلاف الوادي  <a href="#" className="etegahat">أحصل على الاتجاهات</a></p>
               </div>
             </div>
           </div>

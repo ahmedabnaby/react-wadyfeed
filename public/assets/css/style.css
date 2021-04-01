@@ -1173,7 +1173,7 @@ h6 {
 .topbar_three_nav_box {
     position: relative;
     display: block;
-    max-width: 1140px;
+    /* max-width: 70px; */
     width: 100%;
 }
 .main_nav_header_three_content {
@@ -1493,7 +1493,7 @@ h6 {
         justify-content: space-between;
     }
     .main-nav__main-navigation {
-        display: none;
+        display: block;
     }
 }
 
@@ -4015,7 +4015,7 @@ h6 {
 .site-footer_bottom {
     position: relative;
     display: block;
-    padding-top: 20px;
+    padding-top: 5px;
     background: #938173;
 }
 .site-footer_bottom .container {

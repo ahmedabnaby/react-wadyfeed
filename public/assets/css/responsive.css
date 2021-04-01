@@ -1242,7 +1242,7 @@
     .topbar_three_nav_box {
         position: relative;
         display: block;
-        max-width: 70px;
+        /* max-width: 70px; */
         width: 100%;
         float: right !important;
         padding: 25px 0;
@@ -1278,7 +1278,7 @@
     .topbar_three_nav_box {
         position: relative;
         display: block;
-        max-width: 70px;
+        /* max-width: 70px; */
         width: 100%;
         float: right !important;
         padding: 25px 0;
@@ -1291,7 +1291,8 @@
         font-size: 30px;
     }
     .topbar_three_nav_box .stricked-menu {
-        display: none;
+        display: inline;
+        left: -26px;
     }
 }
 
@@ -1307,6 +1308,12 @@
     }
     .main-nav__left .side-menu__toggler {
         margin-left: 0px;
+    }
+    .topbar_three_nav_box {
+        position: relative;
+        display: block;
+        max-width: 100%;
+        width: 100%;
     }
 }
 
@@ -1487,9 +1494,7 @@
 
 @media only screen and (min-width: 1500px) and (max-width: 1900px) {
     /** Header Three Wrap**/
-    .topbar_three_nav_box {
-        max-width: 980px;
-    }
+    
     .logo-box-three {
         max-width: 200px;
     }
@@ -1500,9 +1505,7 @@
 
 @media only screen and (min-width: 1200px) and (max-width: 1499px) {
     /** Header Three Wrap**/
-    .topbar_three_nav_box {
-        max-width: 850px;
-    }
+    
     .logo-box-three {
         max-width: 200px;
     }
