@@ -511,10 +511,10 @@ render(){
           <div className="col footer_col_margin2">
             <div className="eco_friendly_content">
               <div className="eco_friendly_title">
-                <p style={{fontSize: 30, color: 'white', marginTop: 25, textAlign: 'right'}}> :  العنوان </p>
-                <p style={{fontSize: 20, color: 'white', marginTop: 25, textAlign: 'right'}}>    مصنع أعلاف الوادي بالسادات  <a href="#" className="etegahat">أحصل على الاتجاهات</a></p>
-                <p style={{fontSize: 20, color: 'white', marginTop: 25, textAlign: 'right'}}>     مصنع أعلاف الوادي بالنوبارية  <a href="#" className="etegahat">أحصل على الاتجاهات</a>  </p>
-                <p style={{fontSize: 20, color: 'white', marginTop: 25, textAlign: 'right'}}>    مصنع أعلاف الوادي بالقاهرة  <a href="#" className="etegahat">أحصل على الاتجاهات</a></p>
+                <p style={{fontSize: 25, color: 'white', marginTop: 25, textAlign: 'right'}}> :  العنوان </p>
+                <p style={{fontSize: 15, color: 'white', marginTop: 25, textAlign: 'right'}}>    مصنع أعلاف الوادي بالسادات  <a href="#" className="etegahat">أحصل على الاتجاهات</a></p>
+                <p style={{fontSize: 15, color: 'white', marginTop: 25, textAlign: 'right'}}>     مصنع أعلاف الوادي بالنوبارية  <a href="#" className="etegahat">أحصل على الاتجاهات</a>  </p>
+                <p style={{fontSize: 15, color: 'white', marginTop: 25, textAlign: 'right'}}>    مصنع أعلاف الوادي بالقاهرة  <a href="#" className="etegahat">أحصل على الاتجاهات</a></p>
               </div>
             </div>
           </div>

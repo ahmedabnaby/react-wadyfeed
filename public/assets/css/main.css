@@ -286,8 +286,8 @@ i.fa.fa-bars:before
     border: 1px;
     border-radius: 40px;
     background-color: #66594f;
-    font-size: 15px;
-    padding: 15px;
+    font-size: 13px;
+    padding: 13px;
     color: white;
 }
 .lightgray
@@ -377,7 +377,7 @@ i.fa.fa-bars:before
 }
 .contact_us_logo
 {
-    width: 200px;
+    width: 120px;
 }
 a:hover
 {
@@ -385,7 +385,14 @@ a:hover
 }
 .wadyGroup
 {
-    width: 20% !important;
+    width: 10% !important;
+    position: relative;
+    top: 125px;
+}
+.fontSizeSmaller
+{
+    font-size: 28px !important;
+    width: 100% !important;
 }
 /* .bggreen::before
 {
@@ -1321,7 +1328,10 @@ a:hover
     .wadyGroup
     {
         width: 30% !important;
-    }
+        position: relative;
+        top: 5px;
+    }   
+
 }
 @media (min-width:768px) and (max-width:1279px){
     .main-nav__navigation-box li a
