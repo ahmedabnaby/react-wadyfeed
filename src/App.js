@@ -168,7 +168,7 @@ render(){
         <div>
           <img src="assets/images/wady/new mobile mock up.png" className="phone-mock wow fadeInLeft" data-wow-delay="250ms" />
           <img src="assets/images/wady/QR Code- WADI.png" className="qr_img wow fadeInRight" data-wow-delay="250ms" style={{backgroundColor:'white'}} />
-        <h3 style={{textAlign: 'right'}} className="edkhol">اسكان الكود و نزل <br/> برنامج نادي الثمانية </h3>
+          <h3 style={{textAlign: 'right'}} className="edkhol">اسكان الكود و نزل برنامج نادي الثمانية </h3>
         </div>
         
       </div>

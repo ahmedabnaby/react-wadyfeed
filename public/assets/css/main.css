@@ -281,7 +281,9 @@ i.fa.fa-bars:before
     position: relative;
     color: white;
     top: -195px;
-    right: 32%;
+    left: 45%;
+    width: 25%;
+    font-size: 30px;
 }
 .etegahat
 {
@@ -521,6 +523,9 @@ a:hover
     {
         position: relative;
         top: -105px;
+        font-size: 22px;
+        width: 20%;
+        left: 48%;
     }
 }
 @media (min-width:1366px) and (max-width:1439px)
@@ -639,6 +644,9 @@ a:hover
     {
         position: relative;
         top: -145px;
+        font-size: 22px;
+        width: 20%;
+        left: 48%;
     }
 }
 @media (min-width:1440px) and (max-width:1679px)
@@ -771,6 +779,9 @@ a:hover
     {
         position: relative;
         top: -165px;
+        font-size: 22px;
+        width: 20%;
+        left: 48%;
     }
 }
 @media (min-width:1680px) and (max-width:1919px)
@@ -880,6 +891,12 @@ a:hover
     {
         margin-top: 15px;
         border-radius: 35px;
+    }
+    .edkhol
+    {
+        font-size: 25px;
+        width: 20%;
+        left: 48%;
     }
 }
 @media (min-width:1956px) and (max-width: 2156px) /* 90% */
@@ -1246,8 +1263,9 @@ a:hover
         position: relative;
         top: -115px;
         color: white;
-        font-size: 15px;
-        right: 6% !important;
+        font-size: 12px;
+        left: 50% !important;
+        width: 40%;
     }
     .phone-mock
     {
