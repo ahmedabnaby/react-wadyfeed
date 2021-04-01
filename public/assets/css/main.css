@@ -1533,7 +1533,8 @@ a:hover
         top: -215px;
         color: white;
         font-size: 25px;
-        right: 6% !important;
+        left: 50% !important;
+        width: 40%;
     }
     .phone-mock
     {
